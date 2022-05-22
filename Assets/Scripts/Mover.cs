@@ -22,10 +22,15 @@ public class Mover : MonoBehaviour
     private void FixedUpdate() 
     {
         Move();
+        if(movement.magnitude == 0)
+        {
+            animator.SetBool("isMoving", false);
+        }
     }
 
     public void OnMovement(InputAction.CallbackContext ctx)
     {
+        animator.SetBool("isMoving", true);
         movement = ctx.ReadValue<Vector2>();
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);

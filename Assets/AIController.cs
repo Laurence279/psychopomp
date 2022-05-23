@@ -7,10 +7,15 @@ public class AIController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     [SerializeField] private float speed = 1;
-    private GameObject player = null;
+    private PlayerController player = null;
+    public GameObject targetObj;
     public Vector3 target;
     [SerializeField] private float wanderRadius = 3;
     private bool isCollected = false;
+
+    public Vector3 GetTarget() => target;
+    public void SetTarget(Vector3 newTarget) => target = newTarget;
+    public void SetTargetObj(GameObject newTarget) => targetObj = newTarget;
 
     private void Awake()
     {
@@ -25,43 +30,33 @@ public class AIController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isCollected)
+        if(targetObj)
         {
-            target = player.transform.position;
-            if (Vector2.Distance(transform.position, target) < 1f) return;
+            target = targetObj.transform.position;
         }
+        //if (Vector2.Distance(transform.position, target) < 1f) return;
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
     }
 
     IEnumerator MovementCoroutine()
-    {
+    {   
         // Find random point to move to
         target = Random.insideUnitCircle * wanderRadius;
         // Move to point
-        yield return WaitForMovement();
+        yield return new WaitForSeconds(Random.Range(3f, 5f));
+        target = transform.position;
         // Wait x amount of seconds
         yield return new WaitForSeconds(Random.Range(1f, 5f));
         // Repeat
-        yield return MovementCoroutine();
-    }
-
-    IEnumerator WaitForMovement()
-    {
-        while(Vector2.Distance(transform.position, target) > 0.001f)
-        {
-            yield return new WaitForFixedUpdate();
-            yield return WaitForMovement();
-        }
+        StartCoroutine(MovementCoroutine());
     }
 
     public void FollowPlayer()
     {
         StopAllCoroutines();
         player = PlayerController.GetPlayer();
-        isCollected = true;
+        SetTargetObj(player.gameObject);
     }
-
-
 
 
 

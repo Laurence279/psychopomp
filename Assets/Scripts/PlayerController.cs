@@ -8,16 +8,20 @@ public class PlayerController : MonoBehaviour
     
     private Rigidbody2D rb;
     private PlayerInput playerInput;
-    private float lastDir = 1;
     private Animator animator;
     private Vector2 movement = new Vector2();
     [SerializeField] private float speed;
-    public int soulCount = 0;
+    private int soulCount = 0;
 
-    public static GameObject GetPlayer()
+    public void IncrementSouls() => soulCount++;
+
+    public int GetSouls => soulCount;
+
+    public static PlayerController GetPlayer()
     {
-        return FindObjectOfType<PlayerController>().gameObject;
+        return FindObjectOfType<PlayerController>();
     }
+
 
     private void Awake() {
         rb = GetComponent<Rigidbody2D>();
@@ -74,7 +78,8 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.tag == "Soul")
         {
-            collision.gameObject.GetComponent<AIController>().FollowPlayer();
+            //collision.gameObject.GetComponent<AIController>().FollowPlayer();
+            collision.gameObject.GetComponent<AIController>().SetTargetObj(FindObjectOfType<SoulBank>().gameObject);
         }
     }
 

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5901035090536250214}
   - component: {fileID: 5901035090536250138}
   - component: {fileID: 5901035090536250139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Soul
   m_TagString: Soul
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -136,6 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  targetObj: {fileID: 0}
   target: {x: 0, y: 0, z: 0}
   wanderRadius: 10
 --- !u!114 &5901035090536250139

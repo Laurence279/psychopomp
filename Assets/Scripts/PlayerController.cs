@@ -12,10 +12,19 @@ public class PlayerController : MonoBehaviour
     private Vector2 movement = new Vector2();
     [SerializeField] private float speed;
     private int soulCount = 0;
+    private float timeSinceLastAttacked = Mathf.Infinity;
+    [SerializeField] private float attackRate = 0.2f;
+
+    // Attacking and weapon info
+    [SerializeField] LayerMask enemyLayer;
+    [SerializeField] GameObject weaponOrigin;
+    [SerializeField] float weaponDamage = 1f;
 
     public void IncrementSouls() => soulCount++;
 
     public int GetSouls => soulCount;
+
+    private void SetSpeed(int newSpeed) => speed = newSpeed;
 
     public static PlayerController GetPlayer()
     {
@@ -31,12 +40,15 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+
+
+
+/*        if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             var grid = FindObjectOfType<Grid>();
             Vector3Int cellPos = grid.WorldToCell(transform.position);
             transform.position = grid.GetCellCenterLocal(cellPos);
-        }
+        }*/
     }
 
     private void FixedUpdate() 
@@ -47,13 +59,24 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isMoving", false);
         }
-
+        timeSinceLastAttacked += Time.deltaTime;
     }
 
     public void OnMovement(InputAction.CallbackContext ctx)
     {
         animator.SetBool("isMoving", true);
         movement = ctx.ReadValue<Vector2>();
+    }
+
+    public void OnAttack(InputAction.CallbackContext ctx)
+    {
+       if(ctx.performed && timeSinceLastAttacked > attackRate)
+        {
+            timeSinceLastAttacked = 0;
+            animator.ResetTrigger("attack");
+            animator.SetTrigger("attack");
+        }
+
     }
 
     public void Move()
@@ -74,14 +97,31 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Soul")
+        if (collision.gameObject.tag == "Soul")
         {
+            print("Hello");
             //collision.gameObject.GetComponent<AIController>().FollowPlayer();
             collision.gameObject.GetComponent<AIController>().SetTargetObj(FindObjectOfType<SoulBank>().gameObject);
         }
     }
+
+    public void Hit()
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(weaponOrigin.transform.position, 0.5f, enemyLayer);
+        foreach(var collider in colliders)
+        {
+            collider.GetComponent<Health>().Damage(weaponDamage);
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = new Color(1, 1, 1, 0.8f);
+        Gizmos.DrawSphere(weaponOrigin.transform.position, 0.5f);
+    }
+
 
 
 

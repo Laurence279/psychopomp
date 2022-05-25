@@ -41,8 +41,21 @@ public class AIController : MonoBehaviour
         {
             target = targetObj.transform.position;
         }
-        //if (Vector2.Distance(transform.position, target) < 1f) return;
+        if (Vector2.Distance(transform.position, target) < .25f)
+        {
+            animator.SetBool("isMoving", false);
+            return;
+        }
+
+        float direction = (target - transform.position).normalized.x;
+        if (direction != 0)
+        {
+            transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
+        }
+
+        animator.SetBool("isMoving", true);
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
     }
 
     IEnumerator MovementCoroutine()

@@ -3777,6 +3777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2269363682365016484, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -4182,6 +4186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2269363682365016484, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -4586,6 +4594,10 @@ PrefabInstance:
     - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_Name
       value: Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2269363682365016484, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_RootOrder
@@ -19922,6 +19934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2269363682365016484, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -20165,6 +20181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2269363682365016484, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -20229,6 +20249,10 @@ PrefabInstance:
     - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_Name
       value: Spawner (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2269363682365016484, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_RootOrder
@@ -20582,6 +20606,10 @@ PrefabInstance:
     - target: {fileID: 5109975241909747005, guid: 6e852afcbb1160e489e27f5d50d35593, type: 3}
       propertyPath: m_Name
       value: DemonSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109975241909747005, guid: 6e852afcbb1160e489e27f5d50d35593, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e852afcbb1160e489e27f5d50d35593, type: 3}

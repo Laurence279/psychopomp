@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
@@ -70,6 +71,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext ctx)
     {
+       if (EventSystem.current.IsPointerOverGameObject()) return;
        if(ctx.performed && timeSinceLastAttacked > attackRate)
         {
             timeSinceLastAttacked = 0;

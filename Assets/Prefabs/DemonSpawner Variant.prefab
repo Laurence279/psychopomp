@@ -62,7 +62,7 @@ PrefabInstance:
     - target: {fileID: 2269363682365016485, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: spawnEntity
       value: 
-      objectReference: {fileID: 2432606459115423900, guid: d3f15687cb3e30043ade80d50bbb79e1, type: 3}
+      objectReference: {fileID: 5832230586216914143, guid: d3f15687cb3e30043ade80d50bbb79e1, type: 3}
     - target: {fileID: 2269363682365016485, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: spawnTargetRadius
       value: 20

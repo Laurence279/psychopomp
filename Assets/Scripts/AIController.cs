@@ -14,8 +14,22 @@ public class AIController : MonoBehaviour
     private GameObject spawnArea = null;
 
     public Vector3 GetTarget() => target;
+
+    public GameObject GetTargetObj() => targetObj;
     public void SetTarget(Vector3 newTarget) => target = newTarget;
     public void SetTargetObj(GameObject newTarget) => targetObj = newTarget;
+
+
+    // Attacking behaviour
+
+    [SerializeField] private bool isAttacker = false;
+    [SerializeField] private float weaponDamage = 1f;
+    [SerializeField] private float attackRange = 1f;
+    [SerializeField] private float attackRate = 1f;
+    private float timeSinceLastAttack = Mathf.Infinity;
+    [SerializeField] private int scanEnemiesBufferSize = 100;
+    [SerializeField] private float spottingDistance = 5f;
+    [SerializeField] private LayerMask enemyLayer;
 
     public void SetSpawnArea(GameObject origin, float radius)
     {
@@ -37,7 +51,14 @@ public class AIController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(targetObj)
+        timeSinceLastAttack += Time.deltaTime;
+        if(isAttacker && AttackingBehaviour()) return;
+        MoveBehaviour();
+    }
+
+    public virtual void MoveBehaviour()
+    {
+        if (targetObj)
         {
             target = targetObj.transform.position;
         }
@@ -57,7 +78,6 @@ public class AIController : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
     }
-
     IEnumerator MovementCoroutine()
     {
         // Find random point to move to
@@ -89,6 +109,70 @@ public class AIController : MonoBehaviour
         StopAllCoroutines();
         player = PlayerController.GetPlayer();
         SetTargetObj(player.gameObject);
+    }
+
+    private bool AttackingBehaviour()
+    {
+        var target = FindEnemy();
+        if (!target)
+        {
+            SetTargetObj(null);
+            return false;
+        }
+        SetTargetObj(target);
+        if (!CheckIsInRange(target)) return false;
+        Attack(target);
+        return true;
+    }
+
+    private bool CheckIsInRange(GameObject target)
+    {
+        return Vector2.Distance(transform.position, target.transform.position) < attackRange;
+    }
+
+    private void Attack(GameObject target)
+    {
+        if (timeSinceLastAttack < attackRate) return;
+        timeSinceLastAttack = 0;
+        float direction = (target.transform.position - transform.position).normalized.x;
+        if (direction != 0)
+        {
+            transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
+        }
+        animator.SetTrigger("attack");
+    }
+
+    public void Hit()
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 1f, enemyLayer);
+        foreach (var collider in colliders)
+        {
+            collider.GetComponent<Health>().Damage(weaponDamage);
+        }
+    }
+
+    private GameObject FindEnemy()
+    {
+        GameObject enemy = null;
+
+        int maxColliders = scanEnemiesBufferSize;
+        Collider2D[] hitColliders = new Collider2D[maxColliders];
+        int numColliders = Physics2D.OverlapCircleNonAlloc(transform.position, spottingDistance, hitColliders, enemyLayer);
+        foreach (Collider2D collider in hitColliders)
+        {
+            if (collider == null) continue;
+            if (!enemy)
+            {
+                enemy = collider.gameObject;
+            }
+
+            if (Vector3.Distance(transform.position, collider.gameObject.transform.position) < Vector3.Distance(transform.position, enemy.transform.position))
+            {
+                enemy = collider.gameObject;
+            }
+        }
+
+        return enemy;
     }
 
 

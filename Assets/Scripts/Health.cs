@@ -8,6 +8,8 @@ public class Health : MonoBehaviour
     [SerializeField] private float maxHitPoints = 1;
     public float hitPoints = 0;
 
+    public float GetHitPoints() => hitPoints;
+    public float GetMaxHitPoints() => maxHitPoints;
     private void Awake()
     {
         hitPoints = maxHitPoints;
@@ -15,7 +17,7 @@ public class Health : MonoBehaviour
 
     public void Damage(float val)
     {
-        hitPoints = Mathf.Min(0, hitPoints - val);
+        hitPoints = Mathf.Max(0, hitPoints - val);
         if(hitPoints <= 0)
         {
             Death();
@@ -28,7 +30,13 @@ public class Health : MonoBehaviour
         if(gameObject.tag == "Player")
         {
             FindObjectOfType<GameManager>().GameOver();
+            PlayerController.GetPlayer().GetComponent<SpriteRenderer>().enabled = false;
+            PlayerController.GetPlayer().GetComponent<CapsuleCollider2D>().enabled = false;
+            PlayerController.GetPlayer().GetComponent<PlayerController>().enabled = false;
+            return;
         }
         Destroy(gameObject, 0.2f);
     }
+
+    
 }

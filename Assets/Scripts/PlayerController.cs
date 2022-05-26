@@ -99,11 +99,10 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Soul")
         {
-            print("Hello");
             //collision.gameObject.GetComponent<AIController>().FollowPlayer();
             collision.gameObject.GetComponent<AIController>().SetTargetObj(FindObjectOfType<SoulBank>().gameObject);
         }

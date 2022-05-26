@@ -22,6 +22,7 @@ public class AIController : MonoBehaviour
 
     // Attacking behaviour
 
+    [SerializeField] private string attackAnimName = "";
     [SerializeField] private bool isAttacker = false;
     [SerializeField] private float weaponDamage = 1f;
     [SerializeField] private float attackRange = 1f;
@@ -74,6 +75,7 @@ public class AIController : MonoBehaviour
             transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
         }
 
+        if (this.animator.GetCurrentAnimatorStateInfo(0).IsName(attackAnimName)) return;
         animator.SetBool("isMoving", true);
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
@@ -132,19 +134,21 @@ public class AIController : MonoBehaviour
 
     private void Attack(GameObject target)
     {
+        transform.position = transform.position;
         if (timeSinceLastAttack < attackRate) return;
+        animator.SetTrigger("attack");
         timeSinceLastAttack = 0;
         float direction = (target.transform.position - transform.position).normalized.x;
         if (direction != 0)
         {
             transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
         }
-        animator.SetTrigger("attack");
+
     }
 
     public void Hit()
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 1f, enemyLayer);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
         foreach (var collider in colliders)
         {
             collider.GetComponent<Health>().Damage(weaponDamage);

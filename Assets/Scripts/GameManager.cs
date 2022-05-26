@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     
     [SerializeField] GameObject gameOverOverlay = null;
+    private bool isSpedup = false;
     public void Exit()
     {
         Application.Quit();
@@ -27,5 +28,16 @@ public class GameManager : MonoBehaviour
         gameOverOverlay.SetActive(true);
     }
 
+    public void SpeedUp()
+    {
+        if(isSpedup)
+        {
+            isSpedup = false;
+            Time.timeScale = 1;
+            return;
+        }
+        isSpedup = true;
+        Time.timeScale = 4;
+    }
 
 }

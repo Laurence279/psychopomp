@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class AIController : MonoBehaviour
 {
-    private Rigidbody2D rb;
+
     private Animator animator;
     [SerializeField] private float speed = 1;
     private PlayerController player = null;
     public GameObject targetObj;
     public Vector3 target;
-    [SerializeField] private float wanderRadius = 3;
-    private GameObject spawnArea = null;
+    [SerializeField] private float wanderRadius = 3f;
+    private Vector2 wanderArea;
+
+    [SerializeField] private float minMoveWaitTime = 0f;
+    [SerializeField] private float maxMoveWaitTime = 1f;
 
     public Vector3 GetTarget() => target;
 
@@ -32,17 +35,15 @@ public class AIController : MonoBehaviour
     [SerializeField] private float spottingDistance = 5f;
     [SerializeField] private LayerMask enemyLayer;
 
-    public void SetSpawnArea(GameObject origin, float radius)
+    public void SetWanderArea(Vector2 origin)
     {
-        spawnArea = origin;
-        wanderRadius = radius;
+        wanderArea = origin;
     }
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spawnArea = this.gameObject;
+        wanderArea = transform.position;
     }
 
     private void Start()
@@ -90,13 +91,13 @@ public class AIController : MonoBehaviour
         //target = new Vector2(transform.position.x + randomPos.x, transform.position.y + randomPos.y);
 
         //Moves anywhere within a circle boundary with the centre as a set point
-        GetPositionWithinBounds(spawnArea.transform.position, randomPos);
+        GetPositionWithinBounds(wanderArea, randomPos);
 
         // Move to point
         yield return new WaitForSeconds(Random.Range(3f, 5f));
         target = transform.position;
         // Wait x amount of seconds
-        yield return new WaitForSeconds(Random.Range(1f, 5f));
+        yield return new WaitForSeconds(Random.Range(minMoveWaitTime, maxMoveWaitTime));
         // Repeat
         StartCoroutine(MovementCoroutine());
     }
@@ -148,9 +149,9 @@ public class AIController : MonoBehaviour
 
     public void Hit()
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
-        foreach (var collider in colliders)
-        {
+        Collider2D collider = Physics2D.OverlapCircle(transform.position, attackRange, enemyLayer);
+        if(collider != null && collider.GetComponent<Health>())
+        { 
             collider.GetComponent<Health>().Damage(weaponDamage);
         }
     }
@@ -178,7 +179,11 @@ public class AIController : MonoBehaviour
 
         return enemy;
     }
-
+    private void OnDestroy()
+    {
+        if (GetComponentInParent<Spawner>() == null) return;
+        GetComponentInParent<Spawner>().RemoveFromList(gameObject);
+    }
 
 
 }

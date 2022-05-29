@@ -5,12 +5,20 @@ using UnityEngine;
 public class SoulBank : MonoBehaviour
 {
 
-/*    private void OnTriggerEnter2D(Collider2D collision)
+    private GameObject door;
+
+    private void Awake()
+    {
+        door = FindObjectOfType<Door>().gameObject;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Soul")
         {
-            collision.gameObject.GetComponent<AIController>().SetTargetObj(gameObject);
+            collision.gameObject.GetComponent<AIController>().SetTargetObj(door);
         }
-    }*/
+    }
+
+    
 
 }

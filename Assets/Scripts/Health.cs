@@ -2,11 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] private float maxHitPoints = 1;
     public float hitPoints = 0;
+
+    [SerializeField] private GameObject healthBar = null;
 
     public float GetHitPoints() => hitPoints;
     public float GetMaxHitPoints() => maxHitPoints;
@@ -24,15 +27,20 @@ public class Health : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if(healthBar != null)
+        {
+            healthBar.GetComponent<Slider>().value = (100 / maxHitPoints) * hitPoints;
+        }
+    }
+
     private void Death()
     {
         hitPoints = 0;
         if(gameObject.tag == "Player")
         {
             FindObjectOfType<GameManager>().GameOver();
-            PlayerController.GetPlayer().GetComponent<SpriteRenderer>().enabled = false;
-            PlayerController.GetPlayer().GetComponent<CapsuleCollider2D>().enabled = false;
-            PlayerController.GetPlayer().GetComponent<PlayerController>().enabled = false;
             return;
         }
         Destroy(gameObject, 0.2f);

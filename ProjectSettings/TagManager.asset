@@ -6,18 +6,19 @@ TagManager:
   tags:
   - Soul
   - Demon
+  - Beacon
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - Ground
   - Water
   - UI
   - Soul
   - Demon
-  - 
-  - 
-  - 
+  - Tower
+  - Bank
+  - Projectile
   - 
   - 
   - 

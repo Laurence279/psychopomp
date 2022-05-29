@@ -44,10 +44,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1839be69f43a9de4eb5c4e30c6b7ba8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnEntity: {fileID: 5901035090536250209, guid: aff140f09562a1c4484449290f0c90f1, type: 3}
+  spawnEntities: []
   spawnTargetOrigin: {fileID: 3908177374504937758}
-  spawnTargetRadius: 5
-  spawnList: []
+  spawnList:
+  - {fileID: 5901035090536250209, guid: aff140f09562a1c4484449290f0c90f1, type: 3}
+  spawnLimit: 50
+  spawnRate: 1
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3908177374504937758
 GameObject:
   m_ObjectHideFlags: 0

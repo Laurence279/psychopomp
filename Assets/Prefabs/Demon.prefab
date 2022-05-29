@@ -97,9 +97,10 @@ GameObject:
   - component: {fileID: 242505575281578614}
   - component: {fileID: 5692533527523756392}
   - component: {fileID: 947510783}
-  m_Layer: 0
+  - component: {fileID: -13683009789665149}
+  m_Layer: 7
   m_Name: Demon
-  m_TagString: Untagged
+  m_TagString: Demon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,7 +133,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.022376388, y: 0.025211975}
+  m_Offset: {x: 0.0073830485, y: 0.01021865}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -143,7 +144,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.53344053, y: 0.8571788}
+  m_Size: {x: 0.32353377, y: 0.6672632}
   m_EdgeRadius: 0
 --- !u!50 &8081402954207018279
 Rigidbody2D:
@@ -181,17 +182,19 @@ MonoBehaviour:
   speed: 1
   targetObj: {fileID: 0}
   target: {x: 0, y: 0, z: 0}
-  wanderRadius: 10
+  wanderRadius: 20
+  minMoveWaitTime: 1
+  maxMoveWaitTime: 5
   attackAnimName: DemonAttack
   isAttacker: 1
   weaponDamage: 1
-  attackRange: 1
+  attackRange: 1.5
   attackRate: 0.7
   scanEnemiesBufferSize: 100
   spottingDistance: 5
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 72
+    m_Bits: 320
 --- !u!95 &242505575281578614
 Animator:
   serializedVersion: 3
@@ -223,8 +226,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0af1b1b826d22f42b05df0e04728d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitPoints: 1
+  maxHitPoints: 4
   hitPoints: 0
+  healthBar: {fileID: 0}
 --- !u!212 &947510783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -276,3 +280,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-13683009789665149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081174563186746789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992c96846f0c3284b8ba619db4b46541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

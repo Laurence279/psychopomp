@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     
     [SerializeField] GameObject gameOverOverlay = null;
+    [SerializeField] GameObject gameWinOverlay = null;
     private bool isSpedup = false;
     public void Exit()
     {
@@ -26,9 +27,15 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameOverOverlay.SetActive(true);
+        Time.timeScale = 0;
     }
 
-    public void SpeedUp()
+    public void WinGame()
+    { 
+        gameWinOverlay.SetActive(true);
+        Time.timeScale = 0;
+    }
+    public void SpeedUp(int val)
     {
         if(isSpedup)
         {
@@ -37,7 +44,7 @@ public class GameManager : MonoBehaviour
             return;
         }
         isSpedup = true;
-        Time.timeScale = 4;
+        Time.timeScale = val;
     }
 
 }

@@ -13,6 +13,8 @@ public class Spawner : MonoBehaviour
     [SerializeField, Range(0f, 10f)] private float spawnRate = 1f;
     [SerializeField] public UnityEvent onSpawn;
     private int numToSpawn = 1;
+    [SerializeField] private float spawnDelay = 0f;
+    private bool isDelayed = false;
 
     public void IncreaseSpawnRate(float val) => Mathf.Max(1f, spawnRate - val);
     private void Start()
@@ -25,9 +27,19 @@ public class Spawner : MonoBehaviour
         numToSpawn += 2;
     }
 
+    IEnumerator WaitForSpawnDelay()
+    {
+        yield return new WaitForSeconds(spawnDelay);
+    }
+
 
     IEnumerator InitialiseSpawner()
     {
+        if(!isDelayed)
+        {
+            yield return WaitForSpawnDelay();
+            isDelayed = true;
+        }
         yield return new WaitForSeconds(Random.Range(1f, 5f) + spawnRate);
         Spawn();
         yield return InitialiseSpawner();

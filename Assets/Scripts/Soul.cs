@@ -16,7 +16,7 @@ public class Soul : MonoBehaviour
     }
     private void Start()
     {
-        isSpecial = Random.Range(1, 101) > 80;
+        isSpecial = Random.Range(1, 101) > 70;
     }
 
     private void FixedUpdate()

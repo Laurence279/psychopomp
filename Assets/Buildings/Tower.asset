@@ -15,6 +15,6 @@ MonoBehaviour:
   ID: 2
   Name: Tower
   Description: Deadly tower that fires at demons.
-  cost: 30
+  cost: 25
   buildingPreview: {fileID: 6270069833669779580, guid: ad50579b38e97834eb0cfd04d71a566f, type: 3}
   building: {fileID: 6270069833669779580, guid: 60ddb269f416ebd4da637082dfb79673, type: 3}

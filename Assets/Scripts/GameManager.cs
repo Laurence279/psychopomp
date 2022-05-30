@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] GameObject gameOverOverlay = null;
     [SerializeField] GameObject gameWinOverlay = null;
+    [SerializeField] GameObject instructionsOverlay = null;
+
     private bool isSpedup = false;
     public void Exit()
     {
@@ -17,6 +19,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene("Game");
+        Time.timeScale = 1.0f;
     }
 
     public void LoadMenu()
@@ -24,6 +27,15 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
+    public void ShowInstructions()
+    {
+        instructionsOverlay.SetActive(true);
+    }
+
+    public void HideInstructions()
+    {
+        instructionsOverlay.SetActive(false);
+    }
     public void GameOver()
     {
         gameOverOverlay.SetActive(true);

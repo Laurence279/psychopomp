@@ -105,14 +105,14 @@ MonoBehaviour:
   target: {x: 0, y: 0, z: 0}
   wanderRadius: 3
   minMoveWaitTime: 0
-  maxMoveWaitTime: 3
+  maxMoveWaitTime: 1
   attackAnimName: 
   isAttacker: 0
   weaponDamage: 1
   attackRange: 1
   attackRate: 1
   scanEnemiesBufferSize: 100
-  spottingDistance: 5
+  spottingDistance: 6
   enemyLayer:
     serializedVersion: 2
     m_Bits: 0

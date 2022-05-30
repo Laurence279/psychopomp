@@ -26,11 +26,19 @@ public class Tower : MonoBehaviour
             target = collision.gameObject;
         }
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Demon"))
+        {
+            target = null;
+        }
+    }
 
 
 
     private void Fire(GameObject target)
     {
+        if(target == null) return;
         GameObject newProjectile = Instantiate(projectile);
         newProjectile.transform.position = transform.position;
         newProjectile.GetComponent<Projectile>().SetTarget(target.transform.position);

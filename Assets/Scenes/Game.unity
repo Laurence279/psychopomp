@@ -27065,6 +27065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverOverlay: {fileID: 1130439866}
   gameWinOverlay: {fileID: 1922918146}
+  instructionsOverlay: {fileID: 0}
 --- !u!4 &1878510817
 Transform:
   m_ObjectHideFlags: 0
@@ -27094,6 +27095,7 @@ MonoBehaviour:
   clips:
   - {fileID: 8300000, guid: 7d8e03118a14b6c42af5a5bf9507ab08, type: 3}
   - {fileID: 8300000, guid: eea3e66d466d6d548b686bb21bb287af, type: 3}
+  - {fileID: 8300000, guid: c05adca9dbc5aca4eb872bedf1fa635b, type: 3}
   source: {fileID: 1878510819}
 --- !u!82 &1878510819
 AudioSource:
@@ -28123,6 +28125,10 @@ PrefabInstance:
     - target: {fileID: 5109975241909747002, guid: 6e852afcbb1160e489e27f5d50d35593, type: 3}
       propertyPath: spawnRate
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109975241909747002, guid: 6e852afcbb1160e489e27f5d50d35593, type: 3}
+      propertyPath: spawnDelay
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5109975241909747002, guid: 6e852afcbb1160e489e27f5d50d35593, type: 3}
       propertyPath: spawnLimit

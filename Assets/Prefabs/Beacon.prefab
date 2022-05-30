@@ -123,8 +123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0af1b1b826d22f42b05df0e04728d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitPoints: 10
+  maxHitPoints: 15
   hitPoints: 0
+  healthBar: {fileID: 0}
 --- !u!1 &7900845350784177343
 GameObject:
   m_ObjectHideFlags: 0

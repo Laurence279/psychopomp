@@ -15,7 +15,7 @@ public class Spawner : MonoBehaviour
     private int numToSpawn = 1;
     [SerializeField] private float spawnDelay = 0f;
     private bool isDelayed = false;
-
+    [SerializeField] public bool isDemonSpawner = false;
     public void IncreaseSpawnRate(float val) => Mathf.Max(1f, spawnRate - val);
     private void Start()
     {
@@ -48,7 +48,7 @@ public class Spawner : MonoBehaviour
     {
         for(int i = 0; i < numToSpawn; i++)
         {
-            if (PlayerController.GetPlayer().demonsSpawned >= PlayerController.GetPlayer().demonCountToWin) return;
+            if (isDemonSpawner && PlayerController.GetPlayer().demonsSpawned >= PlayerController.GetPlayer().demonCountToWin) return;
             if (spawnList.Count >= spawnLimit) return;
             GameObject newEntity = Instantiate(spawnEntities[Random.Range(0, spawnEntities.Length)], transform);
             newEntity.GetComponent<AIController>().SetWanderArea(spawnTargetOrigin.transform.position);

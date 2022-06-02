@@ -23,7 +23,19 @@ public class Tower : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Demon"))
         {
-            target = collision.gameObject;
+            if(target == null)
+            {
+                target = collision.gameObject;
+                return;
+            }
+            else
+            {
+                if(Vector2.Distance(transform.position, target.transform.position) > Vector2.Distance(transform.position, collision.gameObject.transform.position))
+                {
+                    target = collision.gameObject;
+                    return;
+                }
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -42,6 +54,13 @@ public class Tower : MonoBehaviour
         GameObject newProjectile = Instantiate(projectile);
         newProjectile.transform.position = transform.position;
         newProjectile.GetComponent<Projectile>().SetTarget(target.transform.position);
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (!target) return;
+        Gizmos.color = new Color(1, 1, 1, 0.8f);
+        Gizmos.DrawSphere(target.gameObject.transform.position, 1f);
     }
 
 

@@ -136,91 +136,12 @@ public class PlayerController : MonoBehaviour
     }
 
 
-
     public void HandleBuildingClicked(Building building)
     {
         selectedBuilding = building;
         buildingPreview = Instantiate(selectedBuilding.GetBuildingPreview());
 
     }
-
-
-
-
-    /*
-
-    private void FixedUpdate() 
-    {
-
-        Move();
-        if(movement.magnitude == 0)
-        {
-            animator.SetBool("isMoving", false);
-        }
-        timeSinceLastAttacked += Time.deltaTime;
-    }
-
-    public void OnMovement(InputAction.CallbackContext ctx)
-    {
-        animator.SetBool("isMoving", true);
-        movement = ctx.ReadValue<Vector2>();
-    }
-
-    public void OnAttack(InputAction.CallbackContext ctx)
-    {
-       if (EventSystem.current.IsPointerOverGameObject()) return;
-       if(ctx.performed && timeSinceLastAttacked > attackRate)
-        {
-            timeSinceLastAttacked = 0;
-            animator.ResetTrigger("attack");
-            animator.SetTrigger("attack");
-        }
-
-    }
-
-    public void Move()
-    {
-
-        Vector2 currentPos = rb.position;
-        Vector2 adjustedMovement = movement * speed;
-        Vector2 newPos = currentPos + adjustedMovement * Time.deltaTime;
-
-        float direction = movement.x;
-        if(direction != 0)
-        {
-            transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
-        }
-
-
-        rb.MovePosition(newPos);
-    }
-
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Soul")
-        {
-            //collision.gameObject.GetComponent<AIController>().FollowPlayer();
-            collision.gameObject.GetComponent<AIController>().SetTargetObj(FindObjectOfType<SoulBank>().gameObject);
-        }
-    }
-
-    public void Hit()
-    {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(weaponOrigin.transform.position, 0.5f, enemyLayer);
-        foreach(var collider in colliders)
-        {
-            collider.GetComponent<Health>().Damage(weaponDamage);
-        }
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = new Color(1, 1, 1, 0.8f);
-        Gizmos.DrawSphere(weaponOrigin.transform.position, 0.5f);
-    }
-
-    */
 
 
 }

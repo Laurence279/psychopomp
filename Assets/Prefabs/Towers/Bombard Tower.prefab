@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: -3786693811368098095}
   - component: {fileID: 2605800730790938728}
   m_Layer: 8
-  m_Name: Tower
+  m_Name: Bombard Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

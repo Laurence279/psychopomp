@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -3786693811368098095}
   - component: {fileID: -267921447049432452}
   m_Layer: 8
-  m_Name: Beacon
+  m_Name: Beacon Tower
   m_TagString: Beacon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

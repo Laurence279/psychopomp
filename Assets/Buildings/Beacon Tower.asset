@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc767b64bb62eff42b32e525d112f9a8, type: 3}
-  m_Name: Restore
+  m_Name: Beacon Tower
   m_EditorClassIdentifier: 
-  ID: 3
-  Name: Guardian
-  Description: Tower that protects nearby souls and buildings.
-  buildingPreview: {fileID: 6270069833669779580, guid: d4a86bcc63adb704482271010af79497, type: 3}
-  building: {fileID: 6270069833669779580, guid: dfe6c4e94eeaa684fa66e1f0ac828ad3, type: 3}
+  ID: 1
+  Name: Beacon Tower
+  Description: Tower of light which attracts nearby souls.
+  cost: 10
+  buildingPreview: {fileID: 6270069833669779580, guid: 919f76be36a9ce3428552a60f22491ed, type: 3}
+  building: {fileID: 6270069833669779580, guid: a0f928a3343899f4b8b8956b5ed809a2, type: 3}

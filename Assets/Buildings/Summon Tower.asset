@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc767b64bb62eff42b32e525d112f9a8, type: 3}
-  m_Name: Tower
+  m_Name: Summon Tower
   m_EditorClassIdentifier: 
-  ID: 2
-  Name: Tower
-  Description: Deadly tower that fires at demons.
-  cost: 25
-  buildingPreview: {fileID: 6270069833669779580, guid: ad50579b38e97834eb0cfd04d71a566f, type: 3}
-  building: {fileID: 6270069833669779580, guid: 60ddb269f416ebd4da637082dfb79673, type: 3}
+  ID: 5
+  Name: Summoning Tower
+  Description: 
+  cost: 10
+  buildingPreview: {fileID: 6270069833669779580, guid: 54a76bcfea8d5ef4fbd48abf71988567, type: 3}
+  building: {fileID: 6270069833669779580, guid: 0b26d0736c08ba244b0907dd1dd7a0ba, type: 3}

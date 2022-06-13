@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc767b64bb62eff42b32e525d112f9a8, type: 3}
+  m_Name: Bombard Tower
+  m_EditorClassIdentifier: 
+  ID: 2
+  Name: Bombard Tower
+  Description: Deadly tower that fires at demons.
+  cost: 10
+  buildingPreview: {fileID: 6270069833669779580, guid: ad50579b38e97834eb0cfd04d71a566f, type: 3}
+  building: {fileID: 6270069833669779580, guid: 60ddb269f416ebd4da637082dfb79673, type: 3}

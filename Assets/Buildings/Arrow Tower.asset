@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc767b64bb62eff42b32e525d112f9a8, type: 3}
+  m_Name: Arrow Tower
+  m_EditorClassIdentifier: 
+  ID: 4
+  Name: Arrow Tower
+  Description: 
+  cost: 10
+  buildingPreview: {fileID: 6270069833669779580, guid: d487e13d8d9ac0b49b78ebc820778c2e, type: 3}
+  building: {fileID: 6270069833669779580, guid: 5ce8ef18c60e1e24dae6576d09562099, type: 3}

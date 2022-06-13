@@ -16,6 +16,7 @@ public class Projectile : MonoBehaviour
 
     private void FixedUpdate()
     {
+        transform.rotation = Quaternion.LookRotation(target - new Vector2(transform.position.x, transform.position.y), Vector2.up);
        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
     }
 

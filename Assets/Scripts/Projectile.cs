@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    private Vector2 target;
+    private Vector3 target;
     [SerializeField] private float speed = 5f;
     [SerializeField] private float damage = 2f;
 
@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.rotation = Quaternion.LookRotation(target - new Vector2(transform.position.x, transform.position.y), Vector2.up);
+       transform.rotation = Quaternion.LookRotation(Vector3.forward, target - transform.position);
        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
     }
 

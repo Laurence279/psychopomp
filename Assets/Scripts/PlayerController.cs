@@ -131,8 +131,13 @@ public class PlayerController : MonoBehaviour
     private bool CanPlaceBuilding(Vector3 selectedCell)
     {
         Collider2D collider = Physics2D.OverlapCircle(selectedCell, 1f, groundMask);
-        if (collider == null && GetSouls >= selectedBuilding.GetCost()) return true;
+        if (collider == null && CanAfford(selectedBuilding)) return true;
         return false;
+    }
+
+    private bool CanAfford(Building building)
+    {
+        return GetSouls >= building.GetCost();
     }
 
 

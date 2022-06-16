@@ -17,4 +17,4 @@ MonoBehaviour:
   Description: 
   cost: 10
   buildingPreview: {fileID: 6270069833669779580, guid: 54a76bcfea8d5ef4fbd48abf71988567, type: 3}
-  building: {fileID: 6270069833669779580, guid: 0b26d0736c08ba244b0907dd1dd7a0ba, type: 3}
+  building: {fileID: 2880300813415482070, guid: 0b26d0736c08ba244b0907dd1dd7a0ba, type: 3}

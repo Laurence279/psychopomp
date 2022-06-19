@@ -13,9 +13,16 @@ public class Health : MonoBehaviour
 
     public float GetHitPoints() => hitPoints;
     public float GetMaxHitPoints() => maxHitPoints;
+
+    public bool isDead() => hitPoints <= 0;
     private void Awake()
     {
         hitPoints = maxHitPoints;
+    }
+
+    public void Heal(float val)
+    {
+        hitPoints = Mathf.Min(hitPoints + val, maxHitPoints);
     }
 
     public void Damage(float val)

@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Sandbox");
         Time.timeScale = 1.0f;
     }
 

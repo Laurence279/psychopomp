@@ -34,6 +34,8 @@ public class AIController : MonoBehaviour
     [SerializeField] private int scanEnemiesBufferSize = 100;
     [SerializeField] private float spottingDistance = 5f;
     [SerializeField] private LayerMask enemyLayer;
+    [SerializeField] private bool isRanged = false;
+    [SerializeField] private GameObject projectile = null;
 
     public void SetWanderArea(Vector2 origin)
     {
@@ -149,10 +151,20 @@ public class AIController : MonoBehaviour
 
     public void Hit()
     {
-        Collider2D collider = Physics2D.OverlapCircle(transform.position, attackRange, enemyLayer);
-        if(collider != null && collider.GetComponent<Health>())
-        { 
-            collider.GetComponent<Health>().Damage(weaponDamage);
+        if(isRanged)
+        {
+            if (targetObj == null) return;
+            GameObject newProjectile = Instantiate(projectile);
+            newProjectile.transform.position = transform.position;
+            newProjectile.GetComponent<Projectile>().SetTarget(targetObj.transform.position);
+        }
+        else
+        {
+            Collider2D collider = Physics2D.OverlapCircle(transform.position, attackRange, enemyLayer);
+            if (collider != null && collider.GetComponent<Health>())
+            {
+                collider.GetComponent<Health>().Damage(weaponDamage);
+            }
         }
     }
 

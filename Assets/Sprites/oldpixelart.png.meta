@@ -1,0 +1,4812 @@
+fileFormatVersion: 2
+guid: 28a9435c19a8b504f8bd40d577e5cbe5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1225120194574665251
+    second: oldpixelart_0
+  - first:
+      213: -140538125256289117
+    second: oldpixelart_1
+  - first:
+      213: 1290477561725390937
+    second: oldpixelart_2
+  - first:
+      213: -2116078878358502151
+    second: oldpixelart_3
+  - first:
+      213: 7204832143254745386
+    second: oldpixelart_4
+  - first:
+      213: -7732516150455128263
+    second: oldpixelart_5
+  - first:
+      213: -3019215119842194360
+    second: oldpixelart_6
+  - first:
+      213: 7819210659462093175
+    second: oldpixelart_7
+  - first:
+      213: 4141366483385480324
+    second: oldpixelart_8
+  - first:
+      213: 6291971750989129141
+    second: oldpixelart_9
+  - first:
+      213: -220223923624314376
+    second: oldpixelart_10
+  - first:
+      213: -6289818131564345005
+    second: oldpixelart_11
+  - first:
+      213: 5632658067183349807
+    second: oldpixelart_12
+  - first:
+      213: 9056254138048583928
+    second: oldpixelart_13
+  - first:
+      213: -7396720203172081869
+    second: oldpixelart_14
+  - first:
+      213: 6319204480925754716
+    second: oldpixelart_15
+  - first:
+      213: 6366923232400450594
+    second: oldpixelart_16
+  - first:
+      213: 1199509208666388879
+    second: oldpixelart_17
+  - first:
+      213: 8350251557797800451
+    second: oldpixelart_18
+  - first:
+      213: -8547785721339014410
+    second: oldpixelart_19
+  - first:
+      213: 7490766584309701330
+    second: oldpixelart_20
+  - first:
+      213: -8646058431430140110
+    second: oldpixelart_21
+  - first:
+      213: -7976340911792153752
+    second: oldpixelart_22
+  - first:
+      213: -4383653398671753665
+    second: oldpixelart_23
+  - first:
+      213: -4096750272752205769
+    second: oldpixelart_24
+  - first:
+      213: -3065449986429328147
+    second: oldpixelart_25
+  - first:
+      213: 25547625051186092
+    second: oldpixelart_26
+  - first:
+      213: -2423009766676762777
+    second: oldpixelart_27
+  - first:
+      213: -8298391852773606128
+    second: oldpixelart_28
+  - first:
+      213: -7550391523199025935
+    second: oldpixelart_29
+  - first:
+      213: 4811993864999550146
+    second: oldpixelart_30
+  - first:
+      213: -4742690888673323017
+    second: oldpixelart_31
+  - first:
+      213: -6366399509577405013
+    second: oldpixelart_32
+  - first:
+      213: 4310611802701170460
+    second: oldpixelart_33
+  - first:
+      213: -6507570239964957732
+    second: oldpixelart_34
+  - first:
+      213: 3280172458151621285
+    second: oldpixelart_35
+  - first:
+      213: 2711307699293660477
+    second: oldpixelart_36
+  - first:
+      213: -7662237403779528495
+    second: oldpixelart_37
+  - first:
+      213: -3845050941423385090
+    second: oldpixelart_38
+  - first:
+      213: 6854283452984193879
+    second: oldpixelart_39
+  - first:
+      213: -1632176006913090429
+    second: oldpixelart_40
+  - first:
+      213: -1037675200668015744
+    second: oldpixelart_41
+  - first:
+      213: -2191961782812533947
+    second: oldpixelart_42
+  - first:
+      213: 7756088001760261783
+    second: oldpixelart_43
+  - first:
+      213: 1049454201011670025
+    second: oldpixelart_44
+  - first:
+      213: 2078818333715401213
+    second: oldpixelart_45
+  - first:
+      213: 9077464694158958081
+    second: oldpixelart_46
+  - first:
+      213: 414791242731165848
+    second: oldpixelart_47
+  - first:
+      213: 2123605159342404745
+    second: oldpixelart_48
+  - first:
+      213: 3019676256886539510
+    second: oldpixelart_49
+  - first:
+      213: 5359730042272730391
+    second: oldpixelart_50
+  - first:
+      213: 8473787564496250185
+    second: oldpixelart_51
+  - first:
+      213: 1721952094526485069
+    second: oldpixelart_52
+  - first:
+      213: -7382089514470676239
+    second: oldpixelart_53
+  - first:
+      213: -8503381587756597511
+    second: oldpixelart_54
+  - first:
+      213: -7667333123825790762
+    second: oldpixelart_55
+  - first:
+      213: 627239055960128817
+    second: oldpixelart_56
+  - first:
+      213: -7040304540987703744
+    second: oldpixelart_57
+  - first:
+      213: -5534813103484080142
+    second: oldpixelart_58
+  - first:
+      213: 1313663461479593478
+    second: oldpixelart_59
+  - first:
+      213: 5654317274894192790
+    second: oldpixelart_60
+  - first:
+      213: -6678958458757757981
+    second: oldpixelart_61
+  - first:
+      213: 2069603681386805270
+    second: oldpixelart_62
+  - first:
+      213: -4215021449379431622
+    second: oldpixelart_63
+  - first:
+      213: 2036138812181425516
+    second: oldpixelart_64
+  - first:
+      213: -6678098939501126909
+    second: oldpixelart_65
+  - first:
+      213: 4002369413599468358
+    second: oldpixelart_66
+  - first:
+      213: -7531202755292404084
+    second: oldpixelart_67
+  - first:
+      213: 4906953334845257969
+    second: oldpixelart_68
+  - first:
+      213: 734574824857066596
+    second: oldpixelart_69
+  - first:
+      213: 1919843030826931384
+    second: oldpixelart_70
+  - first:
+      213: -4090380895985444429
+    second: oldpixelart_71
+  - first:
+      213: 8142180308043153963
+    second: oldpixelart_72
+  - first:
+      213: 3964420804267429924
+    second: oldpixelart_73
+  - first:
+      213: 3914538290210818118
+    second: oldpixelart_74
+  - first:
+      213: 6430991386058745108
+    second: oldpixelart_75
+  - first:
+      213: 2285699915512612920
+    second: oldpixelart_76
+  - first:
+      213: 3801191919304185912
+    second: oldpixelart_77
+  - first:
+      213: -8326966793479310317
+    second: oldpixelart_78
+  - first:
+      213: -2147308974358178975
+    second: oldpixelart_79
+  - first:
+      213: 8273176245783479744
+    second: oldpixelart_80
+  - first:
+      213: -6920669915231990970
+    second: oldpixelart_81
+  - first:
+      213: -436357067678574307
+    second: oldpixelart_82
+  - first:
+      213: 6380445308455082557
+    second: oldpixelart_83
+  - first:
+      213: 8237603709390943557
+    second: oldpixelart_84
+  - first:
+      213: -8446636802155206319
+    second: oldpixelart_85
+  - first:
+      213: 2740928623276629550
+    second: oldpixelart_86
+  - first:
+      213: -6423693440627499883
+    second: oldpixelart_87
+  - first:
+      213: -2866563913419204434
+    second: oldpixelart_88
+  - first:
+      213: -3996860895342404472
+    second: oldpixelart_89
+  - first:
+      213: -7151115160934242815
+    second: oldpixelart_90
+  - first:
+      213: 3535643376350790119
+    second: oldpixelart_91
+  - first:
+      213: 2038206965914800819
+    second: oldpixelart_92
+  - first:
+      213: -3782274779577003428
+    second: oldpixelart_93
+  - first:
+      213: 4212278698138564308
+    second: oldpixelart_94
+  - first:
+      213: 9123963669071956362
+    second: oldpixelart_95
+  - first:
+      213: 5862771089536595229
+    second: oldpixelart_96
+  - first:
+      213: -6111520429127976438
+    second: oldpixelart_97
+  - first:
+      213: -2091085287424332544
+    second: oldpixelart_98
+  - first:
+      213: 7797197360020141848
+    second: oldpixelart_99
+  - first:
+      213: 4174954053514390451
+    second: oldpixelart_100
+  - first:
+      213: -2457280867657099297
+    second: oldpixelart_101
+  - first:
+      213: -5972430998777015809
+    second: oldpixelart_102
+  - first:
+      213: 8216723754149774831
+    second: oldpixelart_103
+  - first:
+      213: 7758391246368869988
+    second: oldpixelart_104
+  - first:
+      213: 7939952757008255024
+    second: oldpixelart_105
+  - first:
+      213: -8321051050370345872
+    second: oldpixelart_106
+  - first:
+      213: -6085711350938466489
+    second: oldpixelart_107
+  - first:
+      213: 5738435518424488268
+    second: oldpixelart_108
+  - first:
+      213: -7955963821088500052
+    second: oldpixelart_109
+  - first:
+      213: -6102319707883965003
+    second: oldpixelart_110
+  - first:
+      213: 7019002719409763259
+    second: oldpixelart_111
+  - first:
+      213: 3668028297158934095
+    second: oldpixelart_112
+  - first:
+      213: -1538825959422011316
+    second: oldpixelart_113
+  - first:
+      213: -8973807822149383957
+    second: oldpixelart_114
+  - first:
+      213: 6089216059350368768
+    second: oldpixelart_115
+  - first:
+      213: 1191180673368211407
+    second: oldpixelart_116
+  - first:
+      213: 1659008161879359356
+    second: oldpixelart_117
+  - first:
+      213: -1280983363697767372
+    second: oldpixelart_118
+  - first:
+      213: -879412903660616575
+    second: oldpixelart_119
+  - first:
+      213: 8636393748569013749
+    second: oldpixelart_120
+  - first:
+      213: 1768883164655867597
+    second: oldpixelart_121
+  - first:
+      213: 2953915847919746100
+    second: oldpixelart_122
+  - first:
+      213: -2133650086900818735
+    second: oldpixelart_123
+  - first:
+      213: 403137386352603503
+    second: oldpixelart_124
+  - first:
+      213: -2636449182673682744
+    second: oldpixelart_125
+  - first:
+      213: 5678038793318658211
+    second: oldpixelart_126
+  - first:
+      213: -4040632463459631495
+    second: oldpixelart_127
+  - first:
+      213: -2091404694367725407
+    second: oldpixelart_128
+  - first:
+      213: -8393002846897745187
+    second: oldpixelart_129
+  - first:
+      213: 6967779325512184277
+    second: oldpixelart_130
+  - first:
+      213: 7800083341882536966
+    second: oldpixelart_131
+  - first:
+      213: -8986107851715852015
+    second: oldpixelart_132
+  - first:
+      213: 2556883074783331845
+    second: oldpixelart_133
+  - first:
+      213: 4122222808011806161
+    second: oldpixelart_134
+  - first:
+      213: 7218516921528605626
+    second: oldpixelart_135
+  - first:
+      213: -3086686680417689408
+    second: oldpixelart_136
+  - first:
+      213: 139643674619813528
+    second: oldpixelart_137
+  - first:
+      213: -2435629601607933476
+    second: oldpixelart_138
+  - first:
+      213: 6939829452283716159
+    second: oldpixelart_139
+  - first:
+      213: 5012310463767445447
+    second: oldpixelart_140
+  - first:
+      213: -8953983375970170005
+    second: oldpixelart_141
+  - first:
+      213: -5295476111900763995
+    second: oldpixelart_142
+  - first:
+      213: 8791900788746600118
+    second: oldpixelart_143
+  - first:
+      213: -3562485900182719879
+    second: oldpixelart_144
+  - first:
+      213: -6908403269906302490
+    second: oldpixelart_145
+  - first:
+      213: -4061584528949060734
+    second: oldpixelart_146
+  - first:
+      213: 5469906221797592057
+    second: oldpixelart_147
+  - first:
+      213: 602557783646868551
+    second: oldpixelart_148
+  - first:
+      213: -314726449250640688
+    second: oldpixelart_149
+  - first:
+      213: 497195533503348299
+    second: oldpixelart_150
+  - first:
+      213: -7465073071344275760
+    second: oldpixelart_151
+  - first:
+      213: 1807298076241306295
+    second: oldpixelart_152
+  - first:
+      213: 2660453194933695351
+    second: oldpixelart_153
+  - first:
+      213: -5919962592991414934
+    second: oldpixelart_154
+  - first:
+      213: -2774176814853579042
+    second: oldpixelart_155
+  - first:
+      213: -2959321305159367389
+    second: oldpixelart_156
+  - first:
+      213: 5144179676895932780
+    second: oldpixelart_157
+  - first:
+      213: -4436004553813391739
+    second: oldpixelart_158
+  - first:
+      213: 4951378856856344314
+    second: oldpixelart_159
+  - first:
+      213: 697524936565543555
+    second: oldpixelart_160
+  - first:
+      213: -8890157617633420107
+    second: oldpixelart_161
+  - first:
+      213: 1314399537135780300
+    second: oldpixelart_162
+  - first:
+      213: 8847961356916578220
+    second: oldpixelart_163
+  - first:
+      213: 2210702399637249505
+    second: oldpixelart_164
+  - first:
+      213: -1792182434973622390
+    second: oldpixelart_165
+  - first:
+      213: -6379133321400703194
+    second: oldpixelart_166
+  - first:
+      213: -2635033389866363242
+    second: oldpixelart_167
+  - first:
+      213: -5096328949563279175
+    second: oldpixelart_168
+  - first:
+      213: -1648328571757980168
+    second: oldpixelart_169
+  - first:
+      213: -2506712256272677693
+    second: oldpixelart_170
+  - first:
+      213: 1804323109650702693
+    second: oldpixelart_171
+  - first:
+      213: -4364818041077771429
+    second: oldpixelart_172
+  - first:
+      213: -8702308480437129619
+    second: oldpixelart_173
+  - first:
+      213: -139012992157100
+    second: oldpixelart_174
+  - first:
+      213: 2537503292737195612
+    second: oldpixelart_175
+  - first:
+      213: 465145685941796056
+    second: oldpixelart_176
+  - first:
+      213: 4510406400755989078
+    second: oldpixelart_177
+  - first:
+      213: 389489738111586086
+    second: oldpixelart_178
+  - first:
+      213: 1824321114336157160
+    second: oldpixelart_179
+  - first:
+      213: 2362562487459233764
+    second: oldpixelart_180
+  - first:
+      213: 7040633564610063882
+    second: oldpixelart_181
+  - first:
+      213: -8708397854715637888
+    second: oldpixelart_182
+  - first:
+      213: -2994966923838472898
+    second: oldpixelart_183
+  - first:
+      213: 86011940613255945
+    second: oldpixelart_184
+  - first:
+      213: 281548526095516690
+    second: oldpixelart_185
+  - first:
+      213: 7417337695498032
+    second: oldpixelart_186
+  - first:
+      213: 1380220633013072867
+    second: oldpixelart_187
+  - first:
+      213: -7109815392218057856
+    second: oldpixelart_188
+  - first:
+      213: -7200464289897515963
+    second: oldpixelart_189
+  - first:
+      213: -5194472240705133846
+    second: oldpixelart_190
+  - first:
+      213: 105867426826171662
+    second: oldpixelart_191
+  - first:
+      213: -6631830699039358607
+    second: oldpixelart_192
+  - first:
+      213: -4458216304079941322
+    second: oldpixelart_193
+  - first:
+      213: 1354669813225302667
+    second: oldpixelart_194
+  - first:
+      213: -8433706000153728760
+    second: oldpixelart_195
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 38
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oldpixelart_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326c7c47350800110800000000000000
+      internalID: 1225120194574665251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a413b6d155bc0ef0800000000000000
+      internalID: -140538125256289117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95011415182b8e110800000000000000
+      internalID: 1290477561725390937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f40cbab87d22a2e0800000000000000
+      internalID: -2116078878358502151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21f30559a4bcf360800000000000000
+      internalID: 7204832143254745386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fa620a78590b490800000000000000
+      internalID: -7732516150455128263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c415158d79916d0800000000000000
+      internalID: -3019215119842194360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7799f25baaa638c60800000000000000
+      internalID: 7819210659462093175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_8
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48476eeefd6197930800000000000000
+      internalID: 4141366483385480324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5ef72a8f2915750800000000000000
+      internalID: 6291971750989129141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9745d128b91fcf0800000000000000
+      internalID: -220223923624314376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359cb46fbb316b8a0800000000000000
+      internalID: -6289818131564345005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 426
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20b3b34ba83b2e40800000000000000
+      internalID: 5632658067183349807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 424
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f81c0e08274ead70800000000000000
+      internalID: 9056254138048583928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 414
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f09fa2a22995990800000000000000
+      internalID: -7396720203172081869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 301
+        width: 160
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55e2acaef252b750800000000000000
+      internalID: 6319204480925754716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224296b42fadb5850800000000000000
+      internalID: 6366923232400450594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89be5f154385a010800000000000000
+      internalID: 1199509208666388879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aa0bfdc8d02e370800000000000000
+      internalID: 8350251557797800451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f29e6fac2a206980800000000000000
+      internalID: -8547785721339014410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da5529458c84f760800000000000000
+      internalID: 7490766584309701330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_21
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fd5575aa7030880800000000000000
+      internalID: -8646058431430140110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b963183385e4190800000000000000
+      internalID: -7976340911792153752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_23
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e7cb1a5722a23c0800000000000000
+      internalID: -4383653398671753665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730ce1b155b6527c0800000000000000
+      internalID: -4096750272752205769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de467229a755575d0800000000000000
+      internalID: -3065449986429328147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_26
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3e70cfd63ca5000800000000000000
+      internalID: 25547625051186092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_27
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 405
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fede1747dbf5ed0800000000000000
+      internalID: -2423009766676762777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_28
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 411
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dfe60a39036dc80800000000000000
+      internalID: -8298391852773606128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_29
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 343
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcf990d9ee973790800000000000000
+      internalID: -7550391523199025935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_30
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 343
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc38a8dce2a7c240800000000000000
+      internalID: 4811993864999550146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_31
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 344
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7152db3c39e2eb0800000000000000
+      internalID: -4742690888673323017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_32
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 401
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badea6d606106a7a0800000000000000
+      internalID: -6366399509577405013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c170c90989e52db30800000000000000
+      internalID: 4310611802701170460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_34
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd33cf7685770b5a0800000000000000
+      internalID: -6507570239964957732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2b52ab873858d20800000000000000
+      internalID: 3280172458151621285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d352e25ccff70a520800000000000000
+      internalID: 2711307699293660477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_37
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d882037da34aa590800000000000000
+      internalID: -7662237403779528495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_38
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef58d2d6a82a3aac0800000000000000
+      internalID: -3845050941423385090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753f5f42c7e4f1f50800000000000000
+      internalID: 6854283452984193879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_40
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c9701c1985959e0800000000000000
+      internalID: -1632176006913090429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_41
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08363ff17ef6991f0800000000000000
+      internalID: -1037675200668015744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_42
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b1a3e3f569491e0800000000000000
+      internalID: -2191961782812533947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_43
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796f69fa1f823ab60800000000000000
+      internalID: 7756088001760261783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_44
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c875b1909609e00800000000000000
+      internalID: 1049454201011670025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_45
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df90dada24279dc10800000000000000
+      internalID: 2078818333715401213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_46
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 344
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e9e7c7b02a9fd70800000000000000
+      internalID: 9077464694158958081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_47
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 382
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8981fe60072a1c500800000000000000
+      internalID: 414791242731165848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_48
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 346
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9847acd14af887d10800000000000000
+      internalID: 2123605159342404745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_49
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 371
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f447648e8b08e920800000000000000
+      internalID: 3019676256886539510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 363
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dc7ad8316916a40800000000000000
+      internalID: 5359730042272730391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_51
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 363
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945ebe3d4e0f89570800000000000000
+      internalID: 8473787564496250185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_52
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 363
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42bd728e4a95e710800000000000000
+      internalID: 1721952094526485069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_53
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 363
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8e6d5d2bc8d8990800000000000000
+      internalID: -7382089514470676239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_54
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 363
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9febb20bf7bedf980800000000000000
+      internalID: -8503381587756597511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_55
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 280
+        width: 39
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d017cba529289590800000000000000
+      internalID: -7667333123825790762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_56
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 279
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d31cf199664b800800000000000000
+      internalID: 627239055960128817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_57
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 352
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ebbd33250db4e90800000000000000
+      internalID: -7040304540987703744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_58
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 352
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff67ac9ec46033b0800000000000000
+      internalID: -5534813103484080142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_59
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 351
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606b6e745f11b3210800000000000000
+      internalID: 1313663461479593478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_60
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 352
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6905c698a9b287e40800000000000000
+      internalID: 5654317274894192790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_61
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 335
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3472c1ba29f43a0800000000000000
+      internalID: -6678958458757757981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_62
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 342
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618b6ee3595b8bc10800000000000000
+      internalID: 2069603681386805270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_63
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 342
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b361de25c3185c0800000000000000
+      internalID: -4215021449379431622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_64
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 342
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6da5753671d14c10800000000000000
+      internalID: 2036138812181425516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_65
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 342
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b5f188560a253a0800000000000000
+      internalID: -6678098939501126909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_66
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 342
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b1c75b6c54b8730800000000000000
+      internalID: 4002369413599468358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_67
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 342
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c866a5ffefacb7790800000000000000
+      internalID: -7531202755292404084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_68
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 325
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8bed45f00091440800000000000000
+      internalID: 4906953334845257969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_69
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 326
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cdc8849ebb13a00800000000000000
+      internalID: 734574824857066596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_70
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 326
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4d2f49017a4aa10800000000000000
+      internalID: 1919843030826931384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_71
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 327
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b95eb23f3c0c37c0800000000000000
+      internalID: -4090380895985444429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 321
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c71ed9d5def070800000000000000
+      internalID: 8142180308043153963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_73
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 321
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420578297b3740730800000000000000
+      internalID: 3964420804267429924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_74
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 300
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6484ea7b5db335630800000000000000
+      internalID: 3914538290210818118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_75
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 299
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415e0afb7987f3950800000000000000
+      internalID: 6430991386058745108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_76
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 246
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838054786ff68bf10800000000000000
+      internalID: 2285699915512612920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_77
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 243
+        width: 41
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838163939eb80c430800000000000000
+      internalID: 3801191919304185912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_78
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 242
+        width: 41
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314313ac1dba07c80800000000000000
+      internalID: -8326966793479310317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 295
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1635f506dd93332e0800000000000000
+      internalID: -2147308974358178975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_80
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 295
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5cf1e56f930d270800000000000000
+      internalID: 8273176245783479744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_81
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 299
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b4dde1167d4ff90800000000000000
+      internalID: -6920669915231990970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_82
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1999c11f8fb1f9f0800000000000000
+      internalID: -436357067678574307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_83
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ad547f335eb8850800000000000000
+      internalID: 6380445308455082557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_84
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545ffa2dde8d15270800000000000000
+      internalID: 8237603709390943557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_85
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 300
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1592cc4a49487ca80800000000000000
+      internalID: -8446636802155206319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_86
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 303
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e9a119f0cb90620800000000000000
+      internalID: 2740928623276629550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_87
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 300
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c146599d47ad6a0800000000000000
+      internalID: -6423693440627499883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_88
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 275
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8d1b6fe4be738d0800000000000000
+      internalID: -2866563913419204434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_89
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 275
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c5774213c4888c0800000000000000
+      internalID: -3996860895342404472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_90
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 275
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106aa9c36a222cc90800000000000000
+      internalID: -7151115160934242815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_91
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 275
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e10adb0be0211130800000000000000
+      internalID: 3535643376350790119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_92
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 275
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b21416cf6a294c10800000000000000
+      internalID: 2038206965914800819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_93
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 274
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52d4689029a28bc0800000000000000
+      internalID: -3782274779577003428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_94
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 276
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d67e798825057a30800000000000000
+      internalID: 4212278698138564308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_95
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 275
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a898a9ebd94de9e70800000000000000
+      internalID: 9123963669071956362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_96
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 285
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15324f5e3fbc5150800000000000000
+      internalID: 5862771089536595229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_97
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 274
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ab848cc848f2ba0800000000000000
+      internalID: -6111520429127976438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_98
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 250
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00de6089209faf2e0800000000000000
+      internalID: -2091085287424332544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_99
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 250
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8173d9700b5353c60800000000000000
+      internalID: 7797197360020141848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_100
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 250
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb6d41879a60f930800000000000000
+      internalID: 4174954053514390451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_101
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 269
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd75fe1f11cf5edd0800000000000000
+      internalID: -2457280867657099297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_102
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 175
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff15d5066a9ad1da0800000000000000
+      internalID: -5972430998777015809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_103
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 253
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe58c9768baa70270800000000000000
+      internalID: 8216723754149774831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_104
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 252
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e015c9bb75bab60800000000000000
+      internalID: 7758391246368869988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_105
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 252
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0384cdef6f0603e60800000000000000
+      internalID: 7939952757008255024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_106
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 252
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074d8c01820b58c80800000000000000
+      internalID: -8321051050370345872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_107
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 252
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74700c115c53b8ba0800000000000000
+      internalID: -6085711350938466489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 204
+        width: 101
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c491d2253b403af40800000000000000
+      internalID: 5738435518424488268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_109
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 234
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca61926ae0db69190800000000000000
+      internalID: -7955963821088500052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_110
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 235
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5f5b1ae84305ba0800000000000000
+      internalID: -6102319707883965003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_111
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 234
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb37be7f8c1886160800000000000000
+      internalID: 7019002719409763259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_112
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 248
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e3d3e5d4477e230800000000000000
+      internalID: 3668028297158934095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_113
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 230
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48508561fdf4aae0800000000000000
+      internalID: -1538825959422011316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_114
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 229
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be80a2eb451a67380800000000000000
+      internalID: -8973807822149383957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_115
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 230
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002ce227ebd318450800000000000000
+      internalID: 6089216059350368768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_116
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 230
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf3c63e28ce78010800000000000000
+      internalID: 1191180673368211407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_117
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 230
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ffa48222bf50710800000000000000
+      internalID: 1659008161879359356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_118
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 163
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c0c9bea68093ee0800000000000000
+      internalID: -1280983363697767372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_119
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 161
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1840a6a9f92bbc3f0800000000000000
+      internalID: -879412903660616575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_120
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 163
+        width: 32
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd3cd35b52aad770800000000000000
+      internalID: 8636393748569013749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_121
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 214
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc65b76cdd55c8810800000000000000
+      internalID: 1768883164655867597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_122
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 217
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c37ab20da6ef820800000000000000
+      internalID: 2953915847919746100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_123
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 217
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc9b4fec80c362e0800000000000000
+      internalID: -2133650086900818735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_124
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 219
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61f935215b389500800000000000000
+      internalID: 403137386352603503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_125
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 208
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cebd56df63796bd0800000000000000
+      internalID: -2636449182673682744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 182
+        width: 101
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a075a0f2327cce40800000000000000
+      internalID: 5678038793318658211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_127
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 204
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97eb393ce2acce7c0800000000000000
+      internalID: -4040632463459631495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_128
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 206
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a890aed286d9f2e0800000000000000
+      internalID: -2091404694367725407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_129
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 203
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd251d7f060168b80800000000000000
+      internalID: -8393002846897745187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_130
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 163
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1f672316682b060800000000000000
+      internalID: 6967779325512184277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_131
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 191
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604b95b09767f3c60800000000000000
+      internalID: 7800083341882536966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_132
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 191
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119c021f48eea4380800000000000000
+      internalID: -8986107851715852015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_133
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 192
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5064bac0c9fdb7320800000000000000
+      internalID: 2556883074783331845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_134
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 196
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d59e8cadc3153930800000000000000
+      internalID: 4122222808011806161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_135
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 176
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbdbd015e25d2460800000000000000
+      internalID: 7218516921528605626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_136
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 176
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c026c071d2e925d0800000000000000
+      internalID: -3086686680417689408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_137
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 176
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e18d4ae2d10f100800000000000000
+      internalID: 139643674619813528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_138
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 176
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1abb728c7e23ed0800000000000000
+      internalID: -2435629601607933476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_139
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 176
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f322a293e1a3f4060800000000000000
+      internalID: 6939829452283716159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_140
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 175
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cff4d87fcd4f8540800000000000000
+      internalID: 5012310463767445447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_141
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b8b8e4f8f0db380800000000000000
+      internalID: -8953983375970170005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_142
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 175
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a896996880b286b0800000000000000
+      internalID: -5295476111900763995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_143
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 170
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6beb7b59f2b130a70800000000000000
+      internalID: 8791900788746600118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_144
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 167
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972754ad2f18f8ec0800000000000000
+      internalID: -3562485900182719879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_145
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 168
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9761c04db6020a0800000000000000
+      internalID: -6908403269906302490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_146
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 170
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bd4ced36a52a7c0800000000000000
+      internalID: -4061584528949060734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_147
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 154
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbc1f85ab209eb40800000000000000
+      internalID: 5469906221797592057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_148
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 152
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7441bea9c17bc5800800000000000000
+      internalID: 602557783646868551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_149
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 153
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcdefe36fdd1abf0800000000000000
+      internalID: -314726449250640688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_150
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 153
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eb06614b466e600800000000000000
+      internalID: 497195533503348299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_151
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 153
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dea030e79bb66890800000000000000
+      internalID: -7465073071344275760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_152
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 96
+        width: 101
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b22c9d5600d41910800000000000000
+      internalID: 1807298076241306295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_153
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 149
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7737399c514dbe420800000000000000
+      internalID: 2660453194933695351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_154
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 150
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a657521136118dda0800000000000000
+      internalID: -5919962592991414934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_155
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 148
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede178692e42089d0800000000000000
+      internalID: -2774176814853579042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_156
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 83
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3250bbdb3f06ee6d0800000000000000
+      internalID: -2959321305159367389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_157
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 142
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c617a2e392cc36740800000000000000
+      internalID: 5144179676895932780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_158
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 131
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58600fb7c552072c0800000000000000
+      internalID: -4436004553813391739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_159
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 130
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af65d4736d4d6b440800000000000000
+      internalID: 4951378856856344314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_160
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 131
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38257f1fb3b1ea900800000000000000
+      internalID: 697524936565543555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_161
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 131
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc1ab3bfb0df9480800000000000000
+      internalID: -8890157617633420107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_162
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 131
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc18aef3a6fad3210800000000000000
+      internalID: 1314399537135780300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_163
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 83
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca75561c9f54aca70800000000000000
+      internalID: 8847961356916578220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_164
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 82
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed5b72ae1efdae10800000000000000
+      internalID: 2210702399637249505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_165
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 82
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fd3be1293e027e0800000000000000
+      internalID: -1792182434973622390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_166
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 109
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627ad03da04c877a0800000000000000
+      internalID: -6379133321400703194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_167
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 99
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696d8b9c71b7e6bd0800000000000000
+      internalID: -2635033389866363242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_168
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 99
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8bdb662d33649b0800000000000000
+      internalID: -5096328949563279175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_169
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 100
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f51d3fa5e5ff19e0800000000000000
+      internalID: -1648328571757980168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_170
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 100
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4cfbaeb7e563dd0800000000000000
+      internalID: -2506712256272677693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_171
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10
+        width: 101
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56122cafe4e3a0910800000000000000
+      internalID: 1804323109650702693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_172
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 10
+        width: 101
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53d7501e1d0d63c0800000000000000
+      internalID: -4364818041077771429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_173
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 69
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eeca93b803b3780800000000000000
+      internalID: -8702308480437129619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_174
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 73
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45abbf381918ffff0800000000000000
+      internalID: -139012992157100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_175
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 67
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e0cfbecc5073320800000000000000
+      internalID: 2537503292737195612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 81
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcbd537987847600800000000000000
+      internalID: 465145685941796056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_177
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 49
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a75bd69be289e30800000000000000
+      internalID: 4510406400755989078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_178
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 81
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f0dcb6adeb76500800000000000000
+      internalID: 389489738111586086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_179
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 81
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed5048436a415910800000000000000
+      internalID: 1824321114336157160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_180
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 83
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efbba0a01289c020800000000000000
+      internalID: 2362562487459233764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_181
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 68
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e66449cea55b160800000000000000
+      internalID: 7040633564610063882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_182
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 68
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f86ea4a4e852780800000000000000
+      internalID: -8708397854715637888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_183
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 65
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d3096637dbf66d0800000000000000
+      internalID: -2994966923838472898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_184
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 68
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903f1be7763913100800000000000000
+      internalID: 86011940613255945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_185
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 73
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21445fc84e248e300800000000000000
+      internalID: 281548526095516690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_186
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 6
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fe482870a5a1000800000000000000
+      internalID: 7417337695498032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_187
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 5
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3b86e5a57872310800000000000000
+      internalID: 1380220633013072867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_188
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 5
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083fc38f19cd45d90800000000000000
+      internalID: -7109815392218057856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_189
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 5
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544f5c6c0efc21c90800000000000000
+      internalID: -7200464289897515963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_190
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 11
+        width: 101
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2a421c40789e7b0800000000000000
+      internalID: -5194472240705133846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_191
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 36
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0532412ddd187100800000000000000
+      internalID: 105867426826171662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_192
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 33
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1718a3dbd1107f3a0800000000000000
+      internalID: -6631830699039358607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_193
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 32
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631d57f54eb3122c0800000000000000
+      internalID: -4458216304079941322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_194
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 33
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a2d3d8401ccc210800000000000000
+      internalID: 1354669813225302667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldpixelart_195
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 6
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809a1c8931575fa80800000000000000
+      internalID: -8433706000153728760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

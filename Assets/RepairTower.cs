@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class RepairTower : MonoBehaviour
 {
-    private GameObject target = null;
+    private GameObject currentTarget = null;
     private int towerLayer = 0;
     [SerializeField] private float repairValue = 1f;
+    public List<GameObject> targets = new List<GameObject>();
     private void Awake()
     {
         towerLayer = LayerMask.NameToLayer("Tower");
@@ -15,71 +16,63 @@ public class RepairTower : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(BeaconEmitter());
+        StartCoroutine(Repair());
     }
 
-    private void Repair()
+    IEnumerator Repair()
     {
-        Health targetHealth = target.GetComponent<Health>();
-        if (targetHealth.GetHitPoints() >= targetHealth.GetMaxHitPoints() || targetHealth.isDead())
-        {
-            target = null;
-            return;
-        }
-        targetHealth.Heal(repairValue);
-
-    }
-
-    IEnumerator BeaconEmitter()
-    {
-        Collider2D[] arr = Physics2D.OverlapCircleAll(transform.position, GetComponent<CircleCollider2D>().radius, 1 << LayerMask.NameToLayer("Tower"));
-        foreach (Collider2D c in arr)
-        {
-            if (c.gameObject.layer != towerLayer || c.gameObject == gameObject) continue;
-            if (target == null)
+        while (true)
+        { 
+            SetTarget();
+            if(currentTarget)
             {
-                target = c.gameObject;
+                currentTarget.GetComponent<Health>().Heal(repairValue);
+            }
+            yield return new WaitForSeconds(1f);
+        }
+    }
+
+    private void SetTarget()
+    {
+        foreach (var target in targets)
+        {
+            if(target == null)
+            {
                 continue;
             }
-            else
+            Health targetHealth = target.GetComponent<Health>();
+            if (targetHealth.GetHitPoints() >= targetHealth.GetMaxHitPoints()) continue;
+            if (currentTarget == null)
             {
-                if (Vector2.Distance(transform.position, target.transform.position) > Vector2.Distance(transform.position, c.gameObject.transform.position))
-                {
-                    target = c.gameObject;
-                    continue;
-                }
+                currentTarget = target;
+                continue;
             }
-
+            currentTarget = GetClosestTarget(target, currentTarget);
         }
-
-        yield return new WaitForSeconds(UnityEngine.Random.Range(1f, 3f));
-        if (target) Repair();
-        yield return BeaconEmitter();
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private GameObject GetClosestTarget(GameObject a, GameObject b)
+    {
+        return Vector2.Distance(transform.position, a.transform.position) < Vector2.Distance(transform.position, b.transform.position) ? a : b;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer != towerLayer) return;
-        if (target == null)
-        {
-            target = collision.gameObject;
-            return;
-        }
-        else
-        {
-            if (Vector2.Distance(transform.position, target.transform.position) > Vector2.Distance(transform.position, collision.gameObject.transform.position))
-            {
-                target = collision.gameObject;
-                return;
-            }
-        }
+        if (targets.Contains(collision.gameObject)) return;
+        targets.Add(collision.gameObject);
+        collision.gameObject.GetComponent<Health>().OnDie += OnTowerDestroyed;
+    }
 
+    private void OnTowerDestroyed(GameObject obj)
+    {
+        targets.Remove(obj);
     }
 
     private void OnDrawGizmos()
     {
-        if (!target) return;
+        if (!currentTarget) return;
         Gizmos.color = new Color(1, 1, 1, 0.8f);
-        Gizmos.DrawSphere(target.gameObject.transform.position, 1f);
+        Gizmos.DrawSphere(currentTarget.gameObject.transform.position, 1f);
     }
 }

@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
 
     [SerializeField] private GameObject healthBar = null;
 
+    public Action<GameObject> OnDie;
+
     public float GetHitPoints() => hitPoints;
     public float GetMaxHitPoints() => maxHitPoints;
 
@@ -18,6 +20,11 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         hitPoints = maxHitPoints;
+    }
+
+    private void OnDestroy()
+    {
+        OnDie?.Invoke(gameObject);
     }
 
     public void Heal(float val)

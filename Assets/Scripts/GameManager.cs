@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    
+
     [SerializeField] GameObject gameOverOverlay = null;
     [SerializeField] GameObject gameWinOverlay = null;
     [SerializeField] GameObject instructionsOverlay = null;
@@ -43,13 +43,13 @@ public class GameManager : MonoBehaviour
     }
 
     public void WinGame()
-    { 
+    {
         gameWinOverlay.SetActive(true);
         Time.timeScale = 0;
     }
     public void SpeedUp(int val)
     {
-        if(isSpedup)
+        if (isSpedup)
         {
             isSpedup = false;
             Time.timeScale = 1;

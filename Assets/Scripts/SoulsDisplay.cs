@@ -25,7 +25,7 @@ public class SoulsDisplay : MonoBehaviour
     private void Update()
     {
         int souls = player.GetSouls;
-        SetText(String.Format("Souls: {0}", souls));
+        SetText(String.Format("{0}", souls));
     }
 
 

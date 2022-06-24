@@ -14,8 +14,10 @@ using UnityEngine.Tilemaps;
         [SerializeField] int startingSoulCount = 50;
         GameManager gameMgr;
 
+    [SerializeField] float raycastRadius = 1f;
 
-        [SerializeField] private LayerMask groundMask = new LayerMask();
+
+    [SerializeField] private LayerMask groundMask = new LayerMask();
         private Building selectedBuilding = null;
         private GameObject buildingPreview = null;
 
@@ -72,6 +74,9 @@ using UnityEngine.Tilemaps;
                     gameMgr.WinGame();
                 }
             }
+
+            if (InteractWithComponent()) return;
+
             if (!buildingPreview) return;
             UpdateBuildingPreview();
 
@@ -87,9 +92,43 @@ using UnityEngine.Tilemaps;
 
         }
 
-        private void CancelBuildingPlacement()
+    private bool InteractWithComponent()
+    {
+        RaycastHit2D[] hits = RaycastAllSorted();
+        foreach (RaycastHit2D hit in hits)
         {
-        
+            IRayCastable[] rayCastables = hit.transform.GetComponents<IRayCastable>();
+            foreach (IRayCastable castable in rayCastables)
+            {
+                if (castable.HandleRayCast(this))
+                {
+                    //SetCursor(castable.GetCursorType());
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    RaycastHit2D[] RaycastAllSorted()
+    {
+        RaycastHit2D[] hits = Physics2D.CircleCastAll(GetMouseRay(), raycastRadius, Vector2.zero);
+        float[] distances = new float[hits.Length];
+        for (int i = 0; i < hits.Length; i++)
+        {
+            distances[i] = hits[i].distance;
+        }
+        Array.Sort(distances, hits);
+        return hits;
+    }
+
+    private static Vector2 GetMouseRay()
+    {
+        return Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    }
+
+    private void CancelBuildingPlacement()
+        {
             Destroy(buildingPreview);
             buildingPreview = null;
             selectedBuilding = null;
@@ -144,8 +183,9 @@ using UnityEngine.Tilemaps;
         {
             selectedBuilding = building;
             buildingPreview = Instantiate(selectedBuilding.GetBuildingPreview());
-
         }
+
+
 
 
     }

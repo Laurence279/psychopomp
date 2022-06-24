@@ -75,7 +75,7 @@ public class AIController : MonoBehaviour
         float direction = (target - transform.position).normalized.x;
         if (direction != 0)
         {
-            transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
+            GetComponent<SpriteRenderer>().flipX = direction < 0 ? true : false;
         }
 
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName(attackAnimName)) return;
@@ -144,7 +144,7 @@ public class AIController : MonoBehaviour
         float direction = (target.transform.position - transform.position).normalized.x;
         if (direction != 0)
         {
-            transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
+            GetComponent<SpriteRenderer>().flipX = direction < 0 ? true : false;
         }
 
     }

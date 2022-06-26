@@ -66,12 +66,16 @@ public class Spawner : MonoBehaviour
     public void RemoveFromList(GameObject obj)
     {
         spawnList.Remove(obj);
+        if(obj.tag == "Demon")
+        {
+            PlayerController.GetPlayer().DecrementDemons();
+        }
     }
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = new Color(1, 1, 1, 0.8f);
-        Gizmos.DrawSphere(spawnTargetOrigin.transform.position, 1f);
+        Gizmos.DrawSphere(spawnTargetOrigin.transform.position, spawnEntities[0].GetComponent<AIController>().GetWanderRadius());
     }
 
 

@@ -195,6 +195,8 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 320
+  isRanged: 0
+  projectile: {fileID: 0}
 --- !u!95 &242505575281578614
 Animator:
   serializedVersion: 3

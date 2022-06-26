@@ -21,8 +21,8 @@ public class DemonDisplay : MonoBehaviour
 
     private void Update()
     {
-        int demonCountToWin = player.GetDemonWinCount();
-        int demonsSpawned = player.GetDemonsSpawned();
-        SetText($"Demons: {(demonCountToWin - demonsSpawned)}");
+        //int demonCountToWin = player.GetDemonWinCount();
+        int demonsAlive = player.GetDemonsSpawned();
+        SetText($"Demons Alive: {demonsAlive}");
     }
 }

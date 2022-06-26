@@ -22,6 +22,8 @@ public class AIController : MonoBehaviour
     public void SetTarget(Vector3 newTarget) => target = newTarget;
     public void SetTargetObj(GameObject newTarget) => targetObj = newTarget;
 
+    public float GetWanderRadius() => wanderRadius;
+
 
     // Attacking behaviour
 
@@ -56,7 +58,7 @@ public class AIController : MonoBehaviour
     private void FixedUpdate()
     {
         timeSinceLastAttack += Time.deltaTime;
-        if(isAttacker && AttackingBehaviour()) return;
+        if (isAttacker && AttackingBehaviour()) return;
         MoveBehaviour();
     }
 

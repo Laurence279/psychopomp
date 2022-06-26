@@ -58,6 +58,11 @@ using UnityEngine.Tilemaps;
             }
         }
 
+    public void DecrementDemons()
+    {
+        demonsSpawned--;
+    }
+
 
         private void Awake() {
             soulCount = startingSoulCount;

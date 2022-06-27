@@ -15,6 +15,7 @@ using UnityEngine.Tilemaps;
         GameManager gameMgr;
 
     [SerializeField] float raycastRadius = 1f;
+    public Action onNothingClick;
 
 
     [SerializeField] private LayerMask groundMask = new LayerMask();
@@ -112,6 +113,7 @@ using UnityEngine.Tilemaps;
                 }
             }
         }
+
         return false;
     }
 

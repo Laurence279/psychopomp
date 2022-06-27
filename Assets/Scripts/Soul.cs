@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Soul : MonoBehaviour, IRayCastable
+public class Soul : MonoBehaviour
 {
 
     private GameObject boundBeacon = null;
@@ -11,7 +11,7 @@ public class Soul : MonoBehaviour, IRayCastable
 
     private bool isSpecial = false;
 
-    public GameObject informationOverlay = null;
+
 
     private void Awake()
     {
@@ -41,16 +41,6 @@ public class Soul : MonoBehaviour, IRayCastable
     {
         Destroy(gameObject);
         PlayerController.GetPlayer().IncrementSouls();
-    }
-
-    public bool HandleRayCast(PlayerController callingController)
-    {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            informationOverlay.SetActive(true);
-        }
-
-        return true;
     }
 
 }

@@ -416,7 +416,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnDelay: 2
-  spawnPrefab: {fileID: 5901035090536250209, guid: aff140f09562a1c4484449290f0c90f1, type: 3}
+  spawnPrefab: {fileID: 4150884784700936891, guid: aff140f09562a1c4484449290f0c90f1, type: 3}
+  spawnLimit: 10
 --- !u!50 &6808093950062318127
 Rigidbody2D:
   serializedVersion: 4

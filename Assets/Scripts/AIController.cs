@@ -12,6 +12,7 @@ public class AIController : MonoBehaviour
     public Vector3 target;
     [SerializeField] private float wanderRadius = 3f;
     private Vector2 wanderArea;
+    private Rigidbody2D rb;
 
     [SerializeField] private float minMoveWaitTime = 0f;
     [SerializeField] private float maxMoveWaitTime = 1f;
@@ -48,6 +49,7 @@ public class AIController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         wanderArea = transform.position;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -77,12 +79,12 @@ public class AIController : MonoBehaviour
         float direction = (target - transform.position).normalized.x;
         if (direction != 0)
         {
-            GetComponent<SpriteRenderer>().flipX = direction < 0 ? true : false;
+            GetComponentInChildren<SpriteRenderer>().flipX = direction < 0 ? true : false;
         }
 
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName(attackAnimName)) return;
         animator.SetBool("isMoving", true);
-        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        rb.MovePosition(Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime));
 
     }
     IEnumerator MovementCoroutine()
@@ -118,17 +120,21 @@ public class AIController : MonoBehaviour
         SetTargetObj(player.gameObject);
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if((enemyLayer.value & (1 << collision.gameObject.layer)) > 0)
+        {
+            if (targetObj && Vector2.Distance(transform.position, collision.transform.position) > Vector2.Distance(transform.position, targetObj.transform.position)) return; 
+            SetTargetObj(collision.gameObject);
+        }
+
+    }
+
     private bool AttackingBehaviour()
     {
-        var target = FindEnemy();
-        if (!target)
-        {
-            SetTargetObj(null);
-            return false;
-        }
-        SetTargetObj(target);
-        if (!CheckIsInRange(target)) return false;
-        Attack(target);
+        if (!targetObj) return false;
+        if (!CheckIsInRange(targetObj)) return false;
+        Attack(targetObj);
         return true;
     }
 
@@ -146,7 +152,7 @@ public class AIController : MonoBehaviour
         float direction = (target.transform.position - transform.position).normalized.x;
         if (direction != 0)
         {
-            GetComponent<SpriteRenderer>().flipX = direction < 0 ? true : false;
+            GetComponentInChildren<SpriteRenderer>().flipX = direction < 0 ? true : false;
         }
 
     }

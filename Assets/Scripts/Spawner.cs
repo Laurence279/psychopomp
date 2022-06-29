@@ -17,6 +17,11 @@ public class Spawner : MonoBehaviour
     private bool isDelayed = false;
     [SerializeField] public bool isDemonSpawner = false;
     public void IncreaseSpawnRate(float val) => Mathf.Max(1f, spawnRate - val);
+
+    private void Awake()
+    {
+        spawnList = new List<GameObject>();
+    }
     private void Start()
     {
         StartCoroutine(InitialiseSpawner());
@@ -25,6 +30,14 @@ public class Spawner : MonoBehaviour
     public void IncreaseDifficulty()
     {
         numToSpawn += 2;
+    }
+
+    public void AttackPlayer(GameObject target)
+    {
+        foreach (GameObject entity in spawnList)
+        {
+            entity.GetComponent<AIController>().SetTargetObj(target);
+        }
     }
 
     IEnumerator WaitForSpawnDelay()

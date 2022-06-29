@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class AIController : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class AIController : MonoBehaviour
     [SerializeField] private float wanderRadius = 3f;
     private Vector2 wanderArea;
     private Rigidbody2D rb;
+    private NavMeshAgent agent;
 
     [SerializeField] private float minMoveWaitTime = 0f;
     [SerializeField] private float maxMoveWaitTime = 1f;
@@ -50,11 +52,15 @@ public class AIController : MonoBehaviour
         animator = GetComponent<Animator>();
         wanderArea = transform.position;
         rb = GetComponent<Rigidbody2D>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     private void Start()
     {
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
         StartCoroutine(MovementCoroutine());
+        
     }
 
     private void FixedUpdate()
@@ -84,7 +90,7 @@ public class AIController : MonoBehaviour
 
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName(attackAnimName)) return;
         animator.SetBool("isMoving", true);
-        rb.MovePosition(Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime));
+        agent.SetDestination(target);
 
     }
     IEnumerator MovementCoroutine()

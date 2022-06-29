@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2449424027473600085}
   - component: {fileID: 1639404012396495903}
   - component: {fileID: 8388419262130806694}
+  - component: {fileID: -6333436590502991604}
   m_Layer: 6
   m_Name: Soul
   m_TagString: Soul
@@ -233,6 +234,28 @@ MonoBehaviour:
     data: {fileID: 4900000, guid: 60324d461197a4243b1db92f282ad080, type: 3}
     text: {fileID: 221014195137527034}
   informationOverlay: {fileID: 9007263780799277839}
+--- !u!195 &-6333436590502991604
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4150884784700936891}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.25
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &8214133367566671080
 PrefabInstance:
   m_ObjectHideFlags: 0

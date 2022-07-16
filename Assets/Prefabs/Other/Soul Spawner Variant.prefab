@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2269363682365016482, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_Name
-      value: Soul Spawner
+      value: Soul Spawner Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2269363682365016484, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: m_RootOrder
@@ -114,8 +114,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -3131756468849351659, guid: adc2163e90873e14fb805a17ca4572bd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4e3c8b413abcf494e9bb3e5e40345686, type: 3}
+  m_Color: {r: 0.6380899, g: 0.4669811, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

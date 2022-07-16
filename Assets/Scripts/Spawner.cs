@@ -87,6 +87,7 @@ public class Spawner : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if (spawnEntities.Length < 1) return;
         Gizmos.color = new Color(1, 1, 1, 0.8f);
         Gizmos.DrawSphere(spawnTargetOrigin.transform.position, spawnEntities[0].GetComponent<AIController>().GetWanderRadius());
     }

@@ -44,7 +44,18 @@ public class AIController : MonoBehaviour
 
     public void SetWanderArea(Vector2 origin)
     {
+        SnapToClosestNavMesh(transform.position);
         wanderArea = origin;
+    }
+
+    private Vector3 SnapToClosestNavMesh(Vector3 target)
+    {
+        NavMeshHit navHit;
+        if (NavMesh.SamplePosition(target, out navHit, 100, -1))
+        {
+            return navHit.position;
+        }
+        else return transform.position;
     }
 
     private void Awake()
@@ -116,7 +127,12 @@ public class AIController : MonoBehaviour
 
     private void GetPositionWithinBounds(Vector2 origin, Vector2 variance)
     {
-        target = new Vector2(origin.x + variance.x, origin.y + variance.y);
+        Vector2 randomPoint = new Vector2(origin.x + variance.x, origin.y + variance.y);
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(randomPoint, out hit, 100, NavMesh.AllAreas))
+        {
+            target = hit.position;
+        }
     }
 
     public void FollowPlayer()
@@ -209,6 +225,12 @@ public class AIController : MonoBehaviour
     {
         if (GetComponentInParent<Spawner>() == null) return;
         GetComponentInParent<Spawner>().RemoveFromList(gameObject);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, target);
     }
 
 

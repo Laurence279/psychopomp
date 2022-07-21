@@ -277,6 +277,8 @@ GameObject:
   - component: {fileID: -3786693811368098095}
   - component: {fileID: -267921447049432452}
   - component: {fileID: -6304354277696768149}
+  - component: {fileID: 7578587887811550702}
+  - component: {fileID: 4424667431761964759}
   m_Layer: 8
   m_Name: Beacon Tower
   m_TagString: Beacon
@@ -413,6 +415,38 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!208 &7578587887811550702
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6270069833669779580}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.05, y: 0.05, z: 0.05}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!114 &4424667431761964759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6270069833669779580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &7646769512764082076
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,6 +533,7 @@ GameObject:
   - component: {fileID: 5183556342905769418}
   - component: {fileID: 3973947175222193727}
   - component: {fileID: 7494832072019102421}
+  - component: {fileID: 7154836442068055967}
   m_Layer: 3
   m_Name: Emitter
   m_TagString: Beacon
@@ -533,6 +568,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 5
+  neighbours: []
+  detectionLayers:
+    serializedVersion: 2
+    m_Bits: 320
+  terrainLayer:
+    serializedVersion: 2
+    m_Bits: 2048
 --- !u!212 &7494832072019102421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -584,6 +626,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &7154836442068055967
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7900845350784177343}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.8285714
 --- !u!1 &7925726391260334473
 GameObject:
   m_ObjectHideFlags: 0

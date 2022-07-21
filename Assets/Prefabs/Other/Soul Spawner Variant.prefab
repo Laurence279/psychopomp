@@ -56,6 +56,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2269363682365016485, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
+      propertyPath: spawnLimit
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269363682365016485, guid: e0fe5d4faad83ca49917e84b24a6c9ce, type: 3}
       propertyPath: spawnList.Array.data[0]
       value: 
       objectReference: {fileID: 0}

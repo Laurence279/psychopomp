@@ -43,4 +43,37 @@ public class Soul : MonoBehaviour
         PlayerController.GetPlayer().IncrementSouls();
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //Get the beacon
+        if (!collision.gameObject.CompareTag("Beacon")) return;
+        GameObject beacon = collision.gameObject;
+        print(ValidatePath(beacon));
+        if (!ValidatePath(beacon)) return;
+        SetBeacon(beacon);
+    }
+
+    private bool ValidatePath(GameObject beacon)
+    {
+        Queue<GameObject> queue = new Queue<GameObject>();
+        List<GameObject> searched = new List<GameObject>();
+        queue.Enqueue(beacon);
+        while(queue.Count > 0)
+        {
+            GameObject currentBeacon = queue.Dequeue();
+            if(!searched.Contains(currentBeacon))
+            {
+                if (currentBeacon.GetComponentInChildren<SoulBank>()) return true;
+
+                var neighbours = currentBeacon.GetComponent<Beacon>().GetNeighbours();
+                foreach(var neighbour in neighbours)
+                {
+                    queue.Enqueue(neighbour);
+                }
+                searched.Add(currentBeacon);
+            }
+        }
+        return false;
+    }
+
 }

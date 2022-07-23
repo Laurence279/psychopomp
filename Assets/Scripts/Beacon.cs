@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,45 +13,34 @@ public class Beacon : MonoBehaviour
     [SerializeField] private LayerMask detectionLayers;
     [SerializeField] private LayerMask terrainLayer;
 
+    public List<GameObject> GetNeighbours() => neighbours;
+
     private void Start()
     {
-        StartCoroutine(BeaconEmitter());
+        FindNeighbours();
+    }
+
+    private void FindNeighbours()
+    {
+        Collider2D[] arr = Physics2D.OverlapCircleAll(transform.position, radius, detectionLayers);
+        foreach (Collider2D c in arr)
+        {
+            if (c.gameObject.GetComponent<Beacon>() || c.gameObject.GetComponent<SoulBank>())
+            {
+                if (c.gameObject == gameObject || neighbours.Contains(c.gameObject)) continue;
+                NavMeshPath path = new NavMeshPath();
+                NavMesh.CalculatePath(transform.position, c.gameObject.transform.position, NavMesh.AllAreas, path);
+                if (path.status == NavMeshPathStatus.PathComplete && path.corners.Length <= 5)
+                {
+                    neighbours.Add(c.gameObject);
+                }
+            }
+        }
     }
 
     private void Awake()
     {
         soulBank = FindObjectOfType<SoulBank>().gameObject;
-    }
-
-    IEnumerator BeaconEmitter()
-    {
-        Collider2D[] arr = Physics2D.OverlapCircleAll(transform.position, radius, detectionLayers);
-        foreach (Collider2D c in arr)
-        {
-            if (c.gameObject.CompareTag("Soul") == true)
-            {
-
-                var soul = c.gameObject.GetComponent<Soul>();
-                if (soul.GetBeacon() == null)
-                {
-                    soul.SetBeacon(gameObject);
-                    continue;
-                }
-
-                var currentBeacon = soul.GetBeacon();
-                float currentBeaconDistance = GetDistanceToBank(currentBeacon);
-                float thisBeaconDistance = GetDistanceToBank(gameObject);
-
-                if (thisBeaconDistance > currentBeaconDistance) continue;
-
-                soul.SetBeacon(gameObject);
-
-            }
-
-        }
-
-        yield return new WaitForSeconds(Random.Range(1f, 3f));
-        yield return BeaconEmitter();
     }
 
     private void FixedUpdate()
@@ -63,7 +53,7 @@ public class Beacon : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D c)
     {
-        if (c.gameObject.CompareTag("Beacon") == true && !neighbours.Contains(c.gameObject))
+        if (c.gameObject.GetComponent<Beacon>() && !neighbours.Contains(c.gameObject) || c.gameObject.GetComponent<SoulBank>() && !neighbours.Contains(c.gameObject))
         {
             NavMeshPath path = new NavMeshPath();
             NavMesh.CalculatePath(transform.position, c.gameObject.transform.position, NavMesh.AllAreas, path);
@@ -72,10 +62,7 @@ public class Beacon : MonoBehaviour
                 neighbours.Add(c.gameObject);
             }
         }
-        else
-        {
-            neighbours.Remove(c.gameObject);
-        }
+
     }
 
     private void OnTriggerExit2D(Collider2D c)

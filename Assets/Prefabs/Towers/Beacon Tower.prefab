@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3400528456341370402}
   - component: {fileID: 862098897954985615}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 8260841071314035237}
   - component: {fileID: 5754382056631732381}
   - component: {fileID: 4766506876485298923}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 7325615003727046189}
   - component: {fileID: 1751022459832587844}
   - component: {fileID: 5444821016344390095}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.05, y: 0.05, z: 0.05}
+  m_Extents: {x: 0.05, y: 0.05, z: 0.00001}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 4219715404077773245}
   - component: {fileID: 976418961129775637}
   - component: {fileID: 8309340889015460621}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +571,7 @@ MonoBehaviour:
   neighbours: []
   detectionLayers:
     serializedVersion: 2
-    m_Bits: 320
+    m_Bits: 328
   terrainLayer:
     serializedVersion: 2
     m_Bits: 2048
@@ -651,7 +651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7784643373471346720}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}

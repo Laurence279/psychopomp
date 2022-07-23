@@ -7,7 +7,6 @@ public class AIController : MonoBehaviour
 {
 
     private Animator animator;
-    [SerializeField] private float speed = 1;
     private PlayerController player = null;
     public GameObject targetObj;
     public Vector3 target;

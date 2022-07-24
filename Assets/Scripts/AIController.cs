@@ -89,6 +89,10 @@ public class AIController : MonoBehaviour
         if (Vector2.Distance(transform.position, target) < .25f)
         {
             animator.SetBool("isMoving", false);
+            if(targetObj)
+            {
+                targetObj = GetComponent<Soul>().GetNextTarget();
+            }
             return;
         }
 

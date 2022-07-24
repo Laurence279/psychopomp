@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,8 @@ public class Soul : MonoBehaviour
 
     private bool isSpecial = false;
 
-
+    [SerializeField] List<GameObject> waypoints = new List<GameObject>();   
+    [SerializeField] int currentWaypointIndex = 0;
 
     private void Awake()
     {
@@ -48,32 +50,49 @@ public class Soul : MonoBehaviour
         //Get the beacon
         if (!collision.gameObject.CompareTag("Beacon")) return;
         GameObject beacon = collision.gameObject;
-        print(ValidatePath(beacon));
-        if (!ValidatePath(beacon)) return;
-        SetBeacon(beacon);
+        waypoints = SearchPath(beacon);
+        GetComponent<AIController>().SetTargetObj(beacon);
     }
 
-    private bool ValidatePath(GameObject beacon)
+    public GameObject GetNextTarget()
     {
-        Queue<GameObject> queue = new Queue<GameObject>();
-        List<GameObject> searched = new List<GameObject>();
-        queue.Enqueue(beacon);
+        return waypoints[1];
+    }
+
+    private List<GameObject> SearchPath(GameObject beacon)
+    {
+        Queue<KeyValuePair<GameObject, GameObject>> queue = new Queue<KeyValuePair<GameObject, GameObject>>();
+        queue.Enqueue(new KeyValuePair<GameObject, GameObject>(beacon, null));
+        Dictionary<GameObject, GameObject> searched = new Dictionary<GameObject, GameObject>();
         while(queue.Count > 0)
         {
-            GameObject currentBeacon = queue.Dequeue();
-            if(!searched.Contains(currentBeacon))
+            KeyValuePair<GameObject, GameObject> currentBeacon = queue.Dequeue();
+            if(!searched.ContainsKey(currentBeacon.Key))
             {
-                if (currentBeacon.GetComponentInChildren<SoulBank>()) return true;
-
-                var neighbours = currentBeacon.GetComponent<Beacon>().GetNeighbours();
-                foreach(var neighbour in neighbours)
+                searched[currentBeacon.Key] = currentBeacon.Value;
+                if (currentBeacon.Key.GetComponentInChildren<SoulBank>())
                 {
-                    queue.Enqueue(neighbour);
+                    List<GameObject> result = new List<GameObject>();
+                    var current = currentBeacon.Key;
+                    while (current != null)
+                    {
+                        result.Add(current);
+                        current = searched[current];
+                    }
+                    result.Reverse();
+                    return result;
                 }
-                searched.Add(currentBeacon);
+                else
+                {
+                    var neighbours = currentBeacon.Key.GetComponent<Beacon>().GetNeighbours();
+                    foreach(var neighbour in neighbours)
+                    {
+                        queue.Enqueue(new KeyValuePair<GameObject, GameObject>(neighbour, currentBeacon.Key));
+                    }
+                }
             }
         }
-        return false;
+        return null;
     }
 
 }

@@ -51,11 +51,21 @@ public class Soul : MonoBehaviour
         if (!collision.gameObject.CompareTag("Beacon")) return;
         GameObject beacon = collision.gameObject;
         waypoints = SearchPath(beacon);
+        if(waypoints == null)
+        {
+            SetBeacon(beacon);
+            return;
+        }
         GetComponent<AIController>().SetTargetObj(beacon);
     }
 
     public GameObject GetNextTarget()
     {
+        if(waypoints == null)
+        {
+            SetBeacon(null);
+            return null;
+        }
         return waypoints[1];
     }
 

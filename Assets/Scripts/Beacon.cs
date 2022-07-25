@@ -33,9 +33,15 @@ public class Beacon : MonoBehaviour
                 if (path.status == NavMeshPathStatus.PathComplete && path.corners.Length <= 5)
                 {
                     neighbours.Add(c.gameObject);
+                    c.gameObject.GetComponentInParent<Health>().OnDie += HandleNeighbourDestroyed;
                 }
             }
         }
+    }
+
+    private void HandleNeighbourDestroyed(GameObject obj)
+    {
+        neighbours.Remove(obj.GetComponentInChildren<Beacon>().gameObject);
     }
 
     private void Awake()
@@ -47,6 +53,7 @@ public class Beacon : MonoBehaviour
     {
         for(int i = 0; i < neighbours.Count; i++)
         {
+            if (!neighbours[i]) continue;
             Debug.DrawLine(transform.position, neighbours[i].transform.position, Color.red);
         }
     }
@@ -85,6 +92,10 @@ public class Beacon : MonoBehaviour
         Gizmos.DrawSphere(transform.position, radius);
     }
 
+    private void OnDestroy()
+    {
+
+    }
 
 
 
